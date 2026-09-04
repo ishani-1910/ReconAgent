@@ -1,0 +1,6 @@
+duckdb>=0.10.0
+streamlit>=1.32.0
+pydantic>=2.6.0
+google-genai>=0.1.1
+pandas>=2.0.0
+pytest>=8.0.0

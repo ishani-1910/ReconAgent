@@ -1,0 +1,1202 @@
+{
+  "stmt_101": {
+    "settlement_id": "setl_5000",
+    "utr": "UTR900000",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_102": {
+    "settlement_id": "setl_5001",
+    "utr": "UTR900001",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_103": {
+    "settlement_id": "setl_5002",
+    "utr": "UTR900002",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_104": {
+    "settlement_id": "setl_5003",
+    "utr": "UTR900003",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_105": {
+    "settlement_id": "setl_5004",
+    "utr": "UTR900004",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_106": {
+    "settlement_id": "setl_5005",
+    "utr": "UTR900005",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_107": {
+    "settlement_id": "setl_5006",
+    "utr": "UTR900006",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_108": {
+    "settlement_id": "setl_5007",
+    "utr": "UTR900007",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_109": {
+    "settlement_id": "setl_5008",
+    "utr": "UTR900008",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_110": {
+    "settlement_id": "setl_5009",
+    "utr": "UTR900009",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_111": {
+    "settlement_id": "setl_5010",
+    "utr": "UTR900010",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_112": {
+    "settlement_id": "setl_5011",
+    "utr": "UTR900011",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_113": {
+    "settlement_id": "setl_5012",
+    "utr": "UTR900012",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_114": {
+    "settlement_id": "setl_5013",
+    "utr": "UTR900013",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_115": {
+    "settlement_id": "setl_5014",
+    "utr": "UTR900014",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_116": {
+    "settlement_id": "setl_5015",
+    "utr": "UTR900015",
+    "archetype": "Type_4",
+    "ground_label": "EXCEPTION_HUMAN",
+    "expected_engine": "TIER_2_UNRESOLVED",
+    "expected_variance": 0.0
+  },
+  "stmt_117": {
+    "settlement_id": "setl_5016",
+    "utr": "UTR900016",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_118": {
+    "settlement_id": "setl_5017",
+    "utr": "UTR900017",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_119": {
+    "settlement_id": "setl_5018",
+    "utr": "UTR900018",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_120": {
+    "settlement_id": "setl_5019",
+    "utr": "UTR900019",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_121": {
+    "settlement_id": "setl_5020",
+    "utr": "UTR900020",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_122": {
+    "settlement_id": "setl_5021",
+    "utr": "UTR900021",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_123": {
+    "settlement_id": "setl_5022",
+    "utr": "UTR900022",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_124": {
+    "settlement_id": "setl_5023",
+    "utr": "UTR900023",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_125": {
+    "settlement_id": "setl_5024",
+    "utr": "UTR900024",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_126": {
+    "settlement_id": "setl_5025",
+    "utr": "UTR900025",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_127": {
+    "settlement_id": "setl_5026",
+    "utr": "UTR900026",
+    "archetype": "Type_4",
+    "ground_label": "EXCEPTION_HUMAN",
+    "expected_engine": "TIER_2_UNRESOLVED",
+    "expected_variance": 0.0
+  },
+  "stmt_128": {
+    "settlement_id": "setl_5027",
+    "utr": "UTR900027",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_129": {
+    "settlement_id": "setl_5028",
+    "utr": "UTR900028",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_130": {
+    "settlement_id": "setl_5029",
+    "utr": "UTR900029",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_131": {
+    "settlement_id": "setl_5030",
+    "utr": "UTR900030",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_132": {
+    "settlement_id": "setl_5031",
+    "utr": "UTR900031",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 272.8
+  },
+  "stmt_133": {
+    "settlement_id": "setl_5032",
+    "utr": "UTR900032",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_134": {
+    "settlement_id": "setl_5033",
+    "utr": "UTR900033",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_135": {
+    "settlement_id": "setl_5034",
+    "utr": "UTR900034",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_136": {
+    "settlement_id": "setl_5035",
+    "utr": "UTR900035",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_137": {
+    "settlement_id": "setl_5036",
+    "utr": "UTR900036",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_138": {
+    "settlement_id": "setl_5037",
+    "utr": "UTR900037",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_139": {
+    "settlement_id": "setl_5038",
+    "utr": "UTR900038",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_140": {
+    "settlement_id": "setl_5039",
+    "utr": "UTR900039",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_141": {
+    "settlement_id": "setl_5040",
+    "utr": "UTR900040",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_142": {
+    "settlement_id": "setl_5041",
+    "utr": "UTR900041",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_143": {
+    "settlement_id": "setl_5042",
+    "utr": "UTR900042",
+    "archetype": "Type_4",
+    "ground_label": "EXCEPTION_HUMAN",
+    "expected_engine": "TIER_2_UNRESOLVED",
+    "expected_variance": 0.0
+  },
+  "stmt_144": {
+    "settlement_id": "setl_5043",
+    "utr": "UTR900043",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 1199.47
+  },
+  "stmt_145": {
+    "settlement_id": "setl_5044",
+    "utr": "UTR900044",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_146": {
+    "settlement_id": "setl_5045",
+    "utr": "UTR900045",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_147": {
+    "settlement_id": "setl_5046",
+    "utr": "UTR900046",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_148": {
+    "settlement_id": "setl_5047",
+    "utr": "UTR900047",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_149": {
+    "settlement_id": "setl_5048",
+    "utr": "UTR900048",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_150": {
+    "settlement_id": "setl_5049",
+    "utr": "UTR900049",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_151": {
+    "settlement_id": "setl_5050",
+    "utr": "UTR900050",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_152": {
+    "settlement_id": "setl_5051",
+    "utr": "UTR900051",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_153": {
+    "settlement_id": "setl_5052",
+    "utr": "UTR900052",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_154": {
+    "settlement_id": "setl_5053",
+    "utr": "UTR900053",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_155": {
+    "settlement_id": "setl_5054",
+    "utr": "UTR900054",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_156": {
+    "settlement_id": "setl_5055",
+    "utr": "UTR900055",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_157": {
+    "settlement_id": "setl_5056",
+    "utr": "UTR900056",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_158": {
+    "settlement_id": "setl_5057",
+    "utr": "UTR900057",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_159": {
+    "settlement_id": "setl_5058",
+    "utr": "UTR900058",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_160": {
+    "settlement_id": "setl_5059",
+    "utr": "UTR900059",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_161": {
+    "settlement_id": "setl_5060",
+    "utr": "UTR900060",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_162": {
+    "settlement_id": "setl_5061",
+    "utr": "UTR900061",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_163": {
+    "settlement_id": "setl_5062",
+    "utr": "UTR900062",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_164": {
+    "settlement_id": "setl_5063",
+    "utr": "UTR900063",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 726.59
+  },
+  "stmt_165": {
+    "settlement_id": "setl_5064",
+    "utr": "UTR900064",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_166": {
+    "settlement_id": "setl_5065",
+    "utr": "UTR900065",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_167": {
+    "settlement_id": "setl_5066",
+    "utr": "UTR900066",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_168": {
+    "settlement_id": "setl_5067",
+    "utr": "UTR900067",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_169": {
+    "settlement_id": "setl_5068",
+    "utr": "UTR900068",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_170": {
+    "settlement_id": "setl_5069",
+    "utr": "UTR900069",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_171": {
+    "settlement_id": "setl_5070",
+    "utr": "UTR900070",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_172": {
+    "settlement_id": "setl_5071",
+    "utr": "UTR900071",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_173": {
+    "settlement_id": "setl_5072",
+    "utr": "UTR900072",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 1169.42
+  },
+  "stmt_174": {
+    "settlement_id": "setl_5073",
+    "utr": "UTR900073",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_175": {
+    "settlement_id": "setl_5074",
+    "utr": "UTR900074",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_176": {
+    "settlement_id": "setl_5075",
+    "utr": "UTR900075",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_177": {
+    "settlement_id": "setl_5076",
+    "utr": "UTR900076",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_178": {
+    "settlement_id": "setl_5077",
+    "utr": "UTR900077",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_179": {
+    "settlement_id": "setl_5078",
+    "utr": "UTR900078",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_180": {
+    "settlement_id": "setl_5079",
+    "utr": "UTR900079",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_181": {
+    "settlement_id": "setl_5080",
+    "utr": "UTR900080",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 1177.24
+  },
+  "stmt_182": {
+    "settlement_id": "setl_5081",
+    "utr": "UTR900081",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_183": {
+    "settlement_id": "setl_5082",
+    "utr": "UTR900082",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_184": {
+    "settlement_id": "setl_5083",
+    "utr": "UTR900083",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_185": {
+    "settlement_id": "setl_5084",
+    "utr": "UTR900084",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_186": {
+    "settlement_id": "setl_5085",
+    "utr": "UTR900085",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_187": {
+    "settlement_id": "setl_5086",
+    "utr": "UTR900086",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_188": {
+    "settlement_id": "setl_5087",
+    "utr": "UTR900087",
+    "archetype": "Type_4",
+    "ground_label": "EXCEPTION_HUMAN",
+    "expected_engine": "TIER_2_UNRESOLVED",
+    "expected_variance": 0.0
+  },
+  "stmt_189": {
+    "settlement_id": "setl_5088",
+    "utr": "UTR900088",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_190": {
+    "settlement_id": "setl_5089",
+    "utr": "UTR900089",
+    "archetype": "Type_4",
+    "ground_label": "EXCEPTION_HUMAN",
+    "expected_engine": "TIER_2_UNRESOLVED",
+    "expected_variance": 0.0
+  },
+  "stmt_191": {
+    "settlement_id": "setl_5090",
+    "utr": "UTR900090",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_192": {
+    "settlement_id": "setl_5091",
+    "utr": "UTR900091",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_193": {
+    "settlement_id": "setl_5092",
+    "utr": "UTR900092",
+    "archetype": "Type_4",
+    "ground_label": "EXCEPTION_HUMAN",
+    "expected_engine": "TIER_2_UNRESOLVED",
+    "expected_variance": 0.0
+  },
+  "stmt_194": {
+    "settlement_id": "setl_5093",
+    "utr": "UTR900093",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 518.83
+  },
+  "stmt_195": {
+    "settlement_id": "setl_5094",
+    "utr": "UTR900094",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_196": {
+    "settlement_id": "setl_5095",
+    "utr": "UTR900095",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_197": {
+    "settlement_id": "setl_5096",
+    "utr": "UTR900096",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_198": {
+    "settlement_id": "setl_5097",
+    "utr": "UTR900097",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_199": {
+    "settlement_id": "setl_5098",
+    "utr": "UTR900098",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_200": {
+    "settlement_id": "setl_5099",
+    "utr": "UTR900099",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_201": {
+    "settlement_id": "setl_5100",
+    "utr": "UTR900100",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 1057.57
+  },
+  "stmt_202": {
+    "settlement_id": "setl_5101",
+    "utr": "UTR900101",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 1491.86
+  },
+  "stmt_203": {
+    "settlement_id": "setl_5102",
+    "utr": "UTR900102",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_204": {
+    "settlement_id": "setl_5103",
+    "utr": "UTR900103",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_205": {
+    "settlement_id": "setl_5104",
+    "utr": "UTR900104",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_206": {
+    "settlement_id": "setl_5105",
+    "utr": "UTR900105",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 364.55
+  },
+  "stmt_207": {
+    "settlement_id": "setl_5106",
+    "utr": "UTR900106",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_208": {
+    "settlement_id": "setl_5107",
+    "utr": "UTR900107",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_209": {
+    "settlement_id": "setl_5108",
+    "utr": "UTR900108",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_210": {
+    "settlement_id": "setl_5109",
+    "utr": "UTR900109",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_211": {
+    "settlement_id": "setl_5110",
+    "utr": "UTR900110",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_212": {
+    "settlement_id": "setl_5111",
+    "utr": "UTR900111",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_213": {
+    "settlement_id": "setl_5112",
+    "utr": "UTR900112",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_214": {
+    "settlement_id": "setl_5113",
+    "utr": "UTR900113",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_215": {
+    "settlement_id": "setl_5114",
+    "utr": "UTR900114",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_216": {
+    "settlement_id": "setl_5115",
+    "utr": "UTR900115",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_217": {
+    "settlement_id": "setl_5116",
+    "utr": "UTR900116",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_218": {
+    "settlement_id": "setl_5117",
+    "utr": "UTR900117",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_219": {
+    "settlement_id": "setl_5118",
+    "utr": "UTR900118",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_220": {
+    "settlement_id": "setl_5119",
+    "utr": "UTR900119",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_221": {
+    "settlement_id": "setl_5120",
+    "utr": "UTR900120",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_222": {
+    "settlement_id": "setl_5121",
+    "utr": "UTR900121",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_223": {
+    "settlement_id": "setl_5122",
+    "utr": "UTR900122",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_224": {
+    "settlement_id": "setl_5123",
+    "utr": "UTR900123",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 1243.27
+  },
+  "stmt_225": {
+    "settlement_id": "setl_5124",
+    "utr": "UTR900124",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 996.02
+  },
+  "stmt_226": {
+    "settlement_id": "setl_5125",
+    "utr": "UTR900125",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_227": {
+    "settlement_id": "setl_5126",
+    "utr": "UTR900126",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_228": {
+    "settlement_id": "setl_5127",
+    "utr": "UTR900127",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_229": {
+    "settlement_id": "setl_5128",
+    "utr": "UTR900128",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_230": {
+    "settlement_id": "setl_5129",
+    "utr": "UTR900129",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_231": {
+    "settlement_id": "setl_5130",
+    "utr": "UTR900130",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_232": {
+    "settlement_id": "setl_5131",
+    "utr": "UTR900131",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_233": {
+    "settlement_id": "setl_5132",
+    "utr": "UTR900132",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_234": {
+    "settlement_id": "setl_5133",
+    "utr": "UTR900133",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_235": {
+    "settlement_id": "setl_5134",
+    "utr": "UTR900134",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 542.96
+  },
+  "stmt_236": {
+    "settlement_id": "setl_5135",
+    "utr": "UTR900135",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 467.66
+  },
+  "stmt_237": {
+    "settlement_id": "setl_5136",
+    "utr": "UTR900136",
+    "archetype": "Type_2",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 0.0
+  },
+  "stmt_238": {
+    "settlement_id": "setl_5137",
+    "utr": "UTR900137",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 1258.19
+  },
+  "stmt_239": {
+    "settlement_id": "setl_5138",
+    "utr": "UTR900138",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_240": {
+    "settlement_id": "setl_5139",
+    "utr": "UTR900139",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_241": {
+    "settlement_id": "setl_5140",
+    "utr": "UTR900140",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_242": {
+    "settlement_id": "setl_5141",
+    "utr": "UTR900141",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_243": {
+    "settlement_id": "setl_5142",
+    "utr": "UTR900142",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_244": {
+    "settlement_id": "setl_5143",
+    "utr": "UTR900143",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_245": {
+    "settlement_id": "setl_5144",
+    "utr": "UTR900144",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_246": {
+    "settlement_id": "setl_5145",
+    "utr": "UTR900145",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_247": {
+    "settlement_id": "setl_5146",
+    "utr": "UTR900146",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_248": {
+    "settlement_id": "setl_5147",
+    "utr": "UTR900147",
+    "archetype": "Type_4",
+    "ground_label": "EXCEPTION_HUMAN",
+    "expected_engine": "TIER_2_UNRESOLVED",
+    "expected_variance": 0.0
+  },
+  "stmt_249": {
+    "settlement_id": "setl_5148",
+    "utr": "UTR900148",
+    "archetype": "Type_1",
+    "ground_label": "MATCHED_DETERMINISTIC",
+    "expected_engine": "TIER_1_SQL",
+    "expected_variance": 0.0
+  },
+  "stmt_250": {
+    "settlement_id": "setl_5149",
+    "utr": "UTR900149",
+    "archetype": "Type_3",
+    "ground_label": "MATCHED_AI",
+    "expected_engine": "TIER_2_AI",
+    "expected_variance": 947.8
+  }
+}
