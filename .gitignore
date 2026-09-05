@@ -1,6 +1,7 @@
 .env
 *.duckdb
 *.duckdb.wal
+!data/golden_recon_agent.duckdb
 __pycache__/
 *.pyc
 .pytest_cache/

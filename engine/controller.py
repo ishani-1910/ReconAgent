@@ -29,7 +29,10 @@ class ReconController:
         try:
             row_count = self.db.conn.execute("SELECT COUNT(*) FROM recon_ledger;").fetchone()[0]
             if row_count == 0:
-                return None
+                if self.restore_golden_ledger():
+                    row_count = self.db.conn.execute("SELECT COUNT(*) FROM recon_ledger;").fetchone()[0]
+                if row_count == 0:
+                    return None
 
             cfo_metrics = self.db.get_cfo_metrics()
             leg1_stats = self.db.get_commercial_recon_metrics()

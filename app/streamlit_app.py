@@ -89,6 +89,22 @@ gt_path = os.path.join(DATA_DIR, "ground_truth.json")
 if not (os.path.exists(oms_path) and os.path.exists(payments_path)):
     generate_synthetic_dataset()
 
+# Auto-bootstrap live database from golden reference if missing or unpopulated (e.g. fresh cloud boot)
+live_db_path = os.path.join(DATA_DIR, "recon_agent.duckdb")
+golden_db_path = os.path.join(DATA_DIR, "golden_recon_agent.duckdb")
+if os.path.exists(golden_db_path) and (not os.path.exists(live_db_path) or os.path.getsize(live_db_path) < 100_000):
+    import shutil
+    try:
+        shutil.copyfile(golden_db_path, live_db_path)
+    except Exception:
+        pass
+
+# Check if deployed in public demo mode (e.g. Streamlit Cloud public demo)
+try:
+    IS_PUBLIC = bool(st.secrets.get("IS_PUBLIC_DEPLOY", False)) or (os.environ.get("IS_PUBLIC_DEPLOY", "").lower() in ("true", "1"))
+except Exception:
+    IS_PUBLIC = os.environ.get("IS_PUBLIC_DEPLOY", "").lower() in ("true", "1")
+
 # Detection for test runners (Pytest / AppTest)
 is_test_mode = ("streamlit.testing" in sys.modules) or bool(os.environ.get("PYTEST_CURRENT_TEST")) or os.environ.get("RECON_TEST_MODE") == "1"
 
@@ -338,10 +354,15 @@ with st.sidebar:
         if existing_results is not None:
             st.session_state.results = existing_results
         else:
-            with st.spinner("First-time setup: Initializing reconciliation ledger..."):
-                st.session_state.results = controller.run_full_pipeline(
-                    oms_path, payments_path, settlements_path, bank_path
-                )
+            # Check golden baseline one more time before triggering live pipeline
+            restored = controller.restore_golden_ledger()
+            if restored is not None:
+                st.session_state.results = restored
+            else:
+                with st.spinner("First-time setup: Initializing reconciliation ledger..."):
+                    st.session_state.results = controller.run_full_pipeline(
+                        oms_path, payments_path, settlements_path, bank_path
+                    )
 
     results = st.session_state.results
     leg2_metrics = controller.db.get_recon_ledger_metrics()
@@ -361,13 +382,6 @@ with st.sidebar:
 
     st.caption("🔒 **Security & Governance**: No PII sent to Gemini · AI proposes, never posts · <0.85 confidence always escalates to human auditor")
 
-    st.markdown("---")
-    if st.button("▶ Run Full Reconciliation Pipeline", type="primary", use_container_width=True, key="sidebar_run_btn"):
-        run_reconciliation(regenerate=False)
-
-    if st.button("🎲 Regenerate Synthetic Data & Run", use_container_width=True, key="sidebar_regen_btn"):
-        run_reconciliation(regenerate=True)
-
     def handle_restore_golden():
         try:
             get_controller.clear()
@@ -379,8 +393,19 @@ with st.sidebar:
             st.success("Ledger restored from Golden Reference!")
             st.rerun()
 
-    if st.button("🔄 Restore Golden Baseline", use_container_width=True, key="sidebar_restore_btn", help="Restores pristine verified ledger from golden_recon_agent.duckdb"):
-        handle_restore_golden()
+    if not IS_PUBLIC:
+        st.markdown("---")
+        if st.button("▶ Run Full Reconciliation Pipeline", type="primary", use_container_width=True, key="sidebar_run_btn"):
+            run_reconciliation(regenerate=False)
+
+        if st.button("🎲 Regenerate Synthetic Data & Run", use_container_width=True, key="sidebar_regen_btn"):
+            run_reconciliation(regenerate=True)
+
+        if st.button("🔄 Restore Golden Baseline", use_container_width=True, key="sidebar_restore_btn", help="Restores pristine verified ledger from golden_recon_agent.duckdb"):
+            handle_restore_golden()
+    else:
+        st.markdown("---")
+        st.caption("🔒 **Public Evaluator Mode Active**: Pipeline execution and dataset mutation buttons are locked to ensure instant cloud boot, zero cold-start delay, and tamper-proof ground-truth evaluation.")
 
     st.markdown("---")
     st.markdown("### 📊 Live Telemetry & CFO Unit Economics")
@@ -390,22 +415,31 @@ with st.sidebar:
     st.caption("DuckDB: Persistent (data/recon_agent.duckdb)")
 
 # Header with Action Bar
-h_col1, h_col2, h_col3, h_col4 = st.columns([2.6, 1.1, 1.1, 1.2])
-with h_col1:
-    st.markdown('<div class="main-header">ReconAgent</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">3-Way Bounded Financial Controller (OMS ↔ Gateway ↔ Bank OLAP)</div>', unsafe_allow_html=True)
-with h_col2:
-    st.write("")  # vertical spacing
-    if st.button("▶ Run Pipeline", type="primary", use_container_width=True, key="top_run_pipeline_btn"):
-        run_reconciliation(regenerate=False)
-with h_col3:
-    st.write("")  # vertical spacing
-    if st.button("🎲 Regenerate", use_container_width=True, key="top_regen_pipeline_btn"):
-        run_reconciliation(regenerate=True)
-with h_col4:
-    st.write("")  # vertical spacing
-    if st.button("🔄 Reset Golden DB", use_container_width=True, key="top_reset_golden_btn", help="Instantly restores live DuckDB ledger from verified golden baseline"):
-        handle_restore_golden()
+if not IS_PUBLIC:
+    h_col1, h_col2, h_col3, h_col4 = st.columns([2.6, 1.1, 1.1, 1.2])
+    with h_col1:
+        st.markdown('<div class="main-header">ReconAgent</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sub-header">3-Way Bounded Financial Controller (OMS ↔ Gateway ↔ Bank OLAP)</div>', unsafe_allow_html=True)
+    with h_col2:
+        st.write("")  # vertical spacing
+        if st.button("▶ Run Pipeline", type="primary", use_container_width=True, key="top_run_pipeline_btn"):
+            run_reconciliation(regenerate=False)
+    with h_col3:
+        st.write("")  # vertical spacing
+        if st.button("🎲 Regenerate", use_container_width=True, key="top_regen_pipeline_btn"):
+            run_reconciliation(regenerate=True)
+    with h_col4:
+        st.write("")  # vertical spacing
+        if st.button("🔄 Reset Golden DB", use_container_width=True, key="top_reset_golden_btn", help="Instantly restores live DuckDB ledger from verified golden baseline"):
+            handle_restore_golden()
+else:
+    h_col1, h_col2 = st.columns([3.4, 1.6])
+    with h_col1:
+        st.markdown('<div class="main-header">ReconAgent</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sub-header">3-Way Bounded Financial Controller (OMS ↔ Gateway ↔ Bank OLAP)</div>', unsafe_allow_html=True)
+    with h_col2:
+        st.write("")
+        st.info("🔒 **Golden Baseline Active** (Public Demo)")
 
 # 4 Specialized Tabs
 tab1, tab2, tab3, tab4 = st.tabs([

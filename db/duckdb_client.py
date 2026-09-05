@@ -14,6 +14,14 @@ SCHEMA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "schema.s
 class DuckDBClient:
     def __init__(self, db_path: str = DEFAULT_DB_PATH):
         self.db_path = db_path
+        # Auto-bootstrap from golden DB on cold start (e.g. Streamlit Cloud) if target DB is missing or empty
+        if self.db_path == DEFAULT_DB_PATH and (not os.path.exists(self.db_path) or os.path.getsize(self.db_path) < 100_000):
+            if os.path.exists(GOLDEN_DB_PATH):
+                import shutil
+                try:
+                    shutil.copyfile(GOLDEN_DB_PATH, self.db_path)
+                except Exception as e:
+                    print(f"Notice: Could not copy golden reference on cold start: {e}")
         self._conn = None
         self._connect()
         self.init_schema()
