@@ -1,1202 +1,3522 @@
 {
-  "stmt_101": {
-    "settlement_id": "setl_5000",
-    "utr": "UTR900000",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_102": {
-    "settlement_id": "setl_5001",
-    "utr": "UTR900001",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_103": {
-    "settlement_id": "setl_5002",
-    "utr": "UTR900002",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_104": {
-    "settlement_id": "setl_5003",
-    "utr": "UTR900003",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_105": {
-    "settlement_id": "setl_5004",
-    "utr": "UTR900004",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_106": {
-    "settlement_id": "setl_5005",
-    "utr": "UTR900005",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_107": {
-    "settlement_id": "setl_5006",
-    "utr": "UTR900006",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_108": {
-    "settlement_id": "setl_5007",
-    "utr": "UTR900007",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_109": {
-    "settlement_id": "setl_5008",
-    "utr": "UTR900008",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_110": {
-    "settlement_id": "setl_5009",
-    "utr": "UTR900009",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_111": {
-    "settlement_id": "setl_5010",
-    "utr": "UTR900010",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_112": {
-    "settlement_id": "setl_5011",
-    "utr": "UTR900011",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_113": {
-    "settlement_id": "setl_5012",
-    "utr": "UTR900012",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_114": {
-    "settlement_id": "setl_5013",
-    "utr": "UTR900013",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_115": {
-    "settlement_id": "setl_5014",
-    "utr": "UTR900014",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_116": {
-    "settlement_id": "setl_5015",
-    "utr": "UTR900015",
-    "archetype": "Type_4",
-    "ground_label": "EXCEPTION_HUMAN",
-    "expected_engine": "TIER_2_UNRESOLVED",
-    "expected_variance": 0.0
-  },
-  "stmt_117": {
-    "settlement_id": "setl_5016",
-    "utr": "UTR900016",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_118": {
-    "settlement_id": "setl_5017",
-    "utr": "UTR900017",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_119": {
-    "settlement_id": "setl_5018",
-    "utr": "UTR900018",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_120": {
-    "settlement_id": "setl_5019",
-    "utr": "UTR900019",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_121": {
-    "settlement_id": "setl_5020",
-    "utr": "UTR900020",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_122": {
-    "settlement_id": "setl_5021",
-    "utr": "UTR900021",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_123": {
-    "settlement_id": "setl_5022",
-    "utr": "UTR900022",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_124": {
-    "settlement_id": "setl_5023",
-    "utr": "UTR900023",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_125": {
-    "settlement_id": "setl_5024",
-    "utr": "UTR900024",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_126": {
-    "settlement_id": "setl_5025",
-    "utr": "UTR900025",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_127": {
-    "settlement_id": "setl_5026",
-    "utr": "UTR900026",
-    "archetype": "Type_4",
-    "ground_label": "EXCEPTION_HUMAN",
-    "expected_engine": "TIER_2_UNRESOLVED",
-    "expected_variance": 0.0
-  },
-  "stmt_128": {
-    "settlement_id": "setl_5027",
-    "utr": "UTR900027",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_129": {
-    "settlement_id": "setl_5028",
-    "utr": "UTR900028",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_130": {
-    "settlement_id": "setl_5029",
-    "utr": "UTR900029",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_131": {
-    "settlement_id": "setl_5030",
-    "utr": "UTR900030",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_132": {
-    "settlement_id": "setl_5031",
-    "utr": "UTR900031",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 272.8
-  },
-  "stmt_133": {
-    "settlement_id": "setl_5032",
-    "utr": "UTR900032",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_134": {
-    "settlement_id": "setl_5033",
-    "utr": "UTR900033",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_135": {
-    "settlement_id": "setl_5034",
-    "utr": "UTR900034",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_136": {
-    "settlement_id": "setl_5035",
-    "utr": "UTR900035",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_137": {
-    "settlement_id": "setl_5036",
-    "utr": "UTR900036",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_138": {
-    "settlement_id": "setl_5037",
-    "utr": "UTR900037",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_139": {
-    "settlement_id": "setl_5038",
-    "utr": "UTR900038",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_140": {
-    "settlement_id": "setl_5039",
-    "utr": "UTR900039",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_141": {
-    "settlement_id": "setl_5040",
-    "utr": "UTR900040",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_142": {
-    "settlement_id": "setl_5041",
-    "utr": "UTR900041",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_143": {
-    "settlement_id": "setl_5042",
-    "utr": "UTR900042",
-    "archetype": "Type_4",
-    "ground_label": "EXCEPTION_HUMAN",
-    "expected_engine": "TIER_2_UNRESOLVED",
-    "expected_variance": 0.0
-  },
-  "stmt_144": {
-    "settlement_id": "setl_5043",
-    "utr": "UTR900043",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 1199.47
-  },
-  "stmt_145": {
-    "settlement_id": "setl_5044",
-    "utr": "UTR900044",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_146": {
-    "settlement_id": "setl_5045",
-    "utr": "UTR900045",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_147": {
-    "settlement_id": "setl_5046",
-    "utr": "UTR900046",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_148": {
-    "settlement_id": "setl_5047",
-    "utr": "UTR900047",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_149": {
-    "settlement_id": "setl_5048",
-    "utr": "UTR900048",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_150": {
-    "settlement_id": "setl_5049",
-    "utr": "UTR900049",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_151": {
-    "settlement_id": "setl_5050",
-    "utr": "UTR900050",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_152": {
-    "settlement_id": "setl_5051",
-    "utr": "UTR900051",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_153": {
-    "settlement_id": "setl_5052",
-    "utr": "UTR900052",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_154": {
-    "settlement_id": "setl_5053",
-    "utr": "UTR900053",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_155": {
-    "settlement_id": "setl_5054",
-    "utr": "UTR900054",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_156": {
-    "settlement_id": "setl_5055",
-    "utr": "UTR900055",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_157": {
-    "settlement_id": "setl_5056",
-    "utr": "UTR900056",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_158": {
-    "settlement_id": "setl_5057",
-    "utr": "UTR900057",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_159": {
-    "settlement_id": "setl_5058",
-    "utr": "UTR900058",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_160": {
-    "settlement_id": "setl_5059",
-    "utr": "UTR900059",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_161": {
-    "settlement_id": "setl_5060",
-    "utr": "UTR900060",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_162": {
-    "settlement_id": "setl_5061",
-    "utr": "UTR900061",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_163": {
-    "settlement_id": "setl_5062",
-    "utr": "UTR900062",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_164": {
-    "settlement_id": "setl_5063",
-    "utr": "UTR900063",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 726.59
-  },
-  "stmt_165": {
-    "settlement_id": "setl_5064",
-    "utr": "UTR900064",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_166": {
-    "settlement_id": "setl_5065",
-    "utr": "UTR900065",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_167": {
-    "settlement_id": "setl_5066",
-    "utr": "UTR900066",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_168": {
-    "settlement_id": "setl_5067",
-    "utr": "UTR900067",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_169": {
-    "settlement_id": "setl_5068",
-    "utr": "UTR900068",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_170": {
-    "settlement_id": "setl_5069",
-    "utr": "UTR900069",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_171": {
-    "settlement_id": "setl_5070",
-    "utr": "UTR900070",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_172": {
-    "settlement_id": "setl_5071",
-    "utr": "UTR900071",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_173": {
-    "settlement_id": "setl_5072",
-    "utr": "UTR900072",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 1169.42
-  },
-  "stmt_174": {
-    "settlement_id": "setl_5073",
-    "utr": "UTR900073",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_175": {
-    "settlement_id": "setl_5074",
-    "utr": "UTR900074",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_176": {
-    "settlement_id": "setl_5075",
-    "utr": "UTR900075",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_177": {
-    "settlement_id": "setl_5076",
-    "utr": "UTR900076",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_178": {
-    "settlement_id": "setl_5077",
-    "utr": "UTR900077",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_179": {
-    "settlement_id": "setl_5078",
-    "utr": "UTR900078",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_180": {
-    "settlement_id": "setl_5079",
-    "utr": "UTR900079",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_181": {
-    "settlement_id": "setl_5080",
-    "utr": "UTR900080",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 1177.24
-  },
-  "stmt_182": {
-    "settlement_id": "setl_5081",
-    "utr": "UTR900081",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_183": {
-    "settlement_id": "setl_5082",
-    "utr": "UTR900082",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_184": {
-    "settlement_id": "setl_5083",
-    "utr": "UTR900083",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_185": {
-    "settlement_id": "setl_5084",
-    "utr": "UTR900084",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_186": {
-    "settlement_id": "setl_5085",
-    "utr": "UTR900085",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_187": {
-    "settlement_id": "setl_5086",
-    "utr": "UTR900086",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_188": {
-    "settlement_id": "setl_5087",
-    "utr": "UTR900087",
-    "archetype": "Type_4",
-    "ground_label": "EXCEPTION_HUMAN",
-    "expected_engine": "TIER_2_UNRESOLVED",
-    "expected_variance": 0.0
-  },
-  "stmt_189": {
-    "settlement_id": "setl_5088",
-    "utr": "UTR900088",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_190": {
-    "settlement_id": "setl_5089",
-    "utr": "UTR900089",
-    "archetype": "Type_4",
-    "ground_label": "EXCEPTION_HUMAN",
-    "expected_engine": "TIER_2_UNRESOLVED",
-    "expected_variance": 0.0
-  },
-  "stmt_191": {
-    "settlement_id": "setl_5090",
-    "utr": "UTR900090",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_192": {
-    "settlement_id": "setl_5091",
-    "utr": "UTR900091",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_193": {
-    "settlement_id": "setl_5092",
-    "utr": "UTR900092",
-    "archetype": "Type_4",
-    "ground_label": "EXCEPTION_HUMAN",
-    "expected_engine": "TIER_2_UNRESOLVED",
-    "expected_variance": 0.0
-  },
-  "stmt_194": {
-    "settlement_id": "setl_5093",
-    "utr": "UTR900093",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 518.83
-  },
-  "stmt_195": {
-    "settlement_id": "setl_5094",
-    "utr": "UTR900094",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_196": {
-    "settlement_id": "setl_5095",
-    "utr": "UTR900095",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_197": {
-    "settlement_id": "setl_5096",
-    "utr": "UTR900096",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_198": {
-    "settlement_id": "setl_5097",
-    "utr": "UTR900097",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_199": {
-    "settlement_id": "setl_5098",
-    "utr": "UTR900098",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_200": {
-    "settlement_id": "setl_5099",
-    "utr": "UTR900099",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_201": {
-    "settlement_id": "setl_5100",
-    "utr": "UTR900100",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 1057.57
-  },
-  "stmt_202": {
-    "settlement_id": "setl_5101",
-    "utr": "UTR900101",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 1491.86
-  },
-  "stmt_203": {
-    "settlement_id": "setl_5102",
-    "utr": "UTR900102",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_204": {
-    "settlement_id": "setl_5103",
-    "utr": "UTR900103",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_205": {
-    "settlement_id": "setl_5104",
-    "utr": "UTR900104",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_206": {
-    "settlement_id": "setl_5105",
-    "utr": "UTR900105",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 364.55
-  },
-  "stmt_207": {
-    "settlement_id": "setl_5106",
-    "utr": "UTR900106",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_208": {
-    "settlement_id": "setl_5107",
-    "utr": "UTR900107",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_209": {
-    "settlement_id": "setl_5108",
-    "utr": "UTR900108",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_210": {
-    "settlement_id": "setl_5109",
-    "utr": "UTR900109",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_211": {
-    "settlement_id": "setl_5110",
-    "utr": "UTR900110",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_212": {
-    "settlement_id": "setl_5111",
-    "utr": "UTR900111",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_213": {
-    "settlement_id": "setl_5112",
-    "utr": "UTR900112",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_214": {
-    "settlement_id": "setl_5113",
-    "utr": "UTR900113",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_215": {
-    "settlement_id": "setl_5114",
-    "utr": "UTR900114",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_216": {
-    "settlement_id": "setl_5115",
-    "utr": "UTR900115",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_217": {
-    "settlement_id": "setl_5116",
-    "utr": "UTR900116",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_218": {
-    "settlement_id": "setl_5117",
-    "utr": "UTR900117",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_219": {
-    "settlement_id": "setl_5118",
-    "utr": "UTR900118",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_220": {
-    "settlement_id": "setl_5119",
-    "utr": "UTR900119",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_221": {
-    "settlement_id": "setl_5120",
-    "utr": "UTR900120",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_222": {
-    "settlement_id": "setl_5121",
-    "utr": "UTR900121",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_223": {
-    "settlement_id": "setl_5122",
-    "utr": "UTR900122",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_224": {
-    "settlement_id": "setl_5123",
-    "utr": "UTR900123",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 1243.27
-  },
-  "stmt_225": {
-    "settlement_id": "setl_5124",
-    "utr": "UTR900124",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 996.02
-  },
-  "stmt_226": {
-    "settlement_id": "setl_5125",
-    "utr": "UTR900125",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_227": {
-    "settlement_id": "setl_5126",
-    "utr": "UTR900126",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_228": {
-    "settlement_id": "setl_5127",
-    "utr": "UTR900127",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_229": {
-    "settlement_id": "setl_5128",
-    "utr": "UTR900128",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_230": {
-    "settlement_id": "setl_5129",
-    "utr": "UTR900129",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_231": {
-    "settlement_id": "setl_5130",
-    "utr": "UTR900130",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_232": {
-    "settlement_id": "setl_5131",
-    "utr": "UTR900131",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_233": {
-    "settlement_id": "setl_5132",
-    "utr": "UTR900132",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_234": {
-    "settlement_id": "setl_5133",
-    "utr": "UTR900133",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_235": {
-    "settlement_id": "setl_5134",
-    "utr": "UTR900134",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 542.96
-  },
-  "stmt_236": {
-    "settlement_id": "setl_5135",
-    "utr": "UTR900135",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 467.66
-  },
-  "stmt_237": {
-    "settlement_id": "setl_5136",
-    "utr": "UTR900136",
-    "archetype": "Type_2",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 0.0
-  },
-  "stmt_238": {
-    "settlement_id": "setl_5137",
-    "utr": "UTR900137",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 1258.19
-  },
-  "stmt_239": {
-    "settlement_id": "setl_5138",
-    "utr": "UTR900138",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_240": {
-    "settlement_id": "setl_5139",
-    "utr": "UTR900139",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_241": {
-    "settlement_id": "setl_5140",
-    "utr": "UTR900140",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_242": {
-    "settlement_id": "setl_5141",
-    "utr": "UTR900141",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_243": {
-    "settlement_id": "setl_5142",
-    "utr": "UTR900142",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_244": {
-    "settlement_id": "setl_5143",
-    "utr": "UTR900143",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_245": {
-    "settlement_id": "setl_5144",
-    "utr": "UTR900144",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_246": {
-    "settlement_id": "setl_5145",
-    "utr": "UTR900145",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_247": {
-    "settlement_id": "setl_5146",
-    "utr": "UTR900146",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_248": {
-    "settlement_id": "setl_5147",
-    "utr": "UTR900147",
-    "archetype": "Type_4",
-    "ground_label": "EXCEPTION_HUMAN",
-    "expected_engine": "TIER_2_UNRESOLVED",
-    "expected_variance": 0.0
-  },
-  "stmt_249": {
-    "settlement_id": "setl_5148",
-    "utr": "UTR900148",
-    "archetype": "Type_1",
-    "ground_label": "MATCHED_DETERMINISTIC",
-    "expected_engine": "TIER_1_SQL",
-    "expected_variance": 0.0
-  },
-  "stmt_250": {
-    "settlement_id": "setl_5149",
-    "utr": "UTR900149",
-    "archetype": "Type_3",
-    "ground_label": "MATCHED_AI",
-    "expected_engine": "TIER_2_AI",
-    "expected_variance": 947.8
+  "leg2": {
+    "stmt_101": {
+      "settlement_id": "setl_5000",
+      "utr": "UTR900000",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_102": {
+      "settlement_id": "setl_5001",
+      "utr": "UTR900001",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 1281.17
+    },
+    "stmt_103": {
+      "settlement_id": "setl_5002",
+      "utr": "UTR900002",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_104": {
+      "settlement_id": "setl_5003",
+      "utr": "UTR900003",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 522.28
+    },
+    "stmt_105": {
+      "settlement_id": "setl_5004",
+      "utr": "UTR900004",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_106": {
+      "settlement_id": "setl_5005",
+      "utr": "UTR900005",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_107": {
+      "settlement_id": "setl_5006",
+      "utr": "UTR900006",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 1319.75
+    },
+    "stmt_108": {
+      "settlement_id": "setl_5007",
+      "utr": "UTR900007",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_109": {
+      "settlement_id": "setl_5008",
+      "utr": "UTR900008",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_110": {
+      "settlement_id": "setl_5009",
+      "utr": "UTR900009",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_111": {
+      "settlement_id": "setl_5010",
+      "utr": "UTR900010",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_112": {
+      "settlement_id": "setl_5011",
+      "utr": "UTR900011",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_113": {
+      "settlement_id": "setl_5012",
+      "utr": "UTR900012",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_114": {
+      "settlement_id": "setl_5013",
+      "utr": "UTR900013",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 920.98
+    },
+    "stmt_115": {
+      "settlement_id": "setl_5014",
+      "utr": "UTR900014",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_116": {
+      "settlement_id": "setl_5015",
+      "utr": "UTR900015",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_117": {
+      "settlement_id": "setl_5016",
+      "utr": "UTR900016",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 1067.01
+    },
+    "stmt_118": {
+      "settlement_id": "setl_5017",
+      "utr": "UTR900017",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_119": {
+      "settlement_id": "setl_5018",
+      "utr": "UTR900018",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_120": {
+      "settlement_id": "setl_5019",
+      "utr": "UTR900019",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_121": {
+      "settlement_id": "setl_5020",
+      "utr": "UTR900020",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_122": {
+      "settlement_id": "setl_5021",
+      "utr": "UTR900021",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 595.04
+    },
+    "stmt_123": {
+      "settlement_id": "setl_5022",
+      "utr": "UTR900022",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_124": {
+      "settlement_id": "setl_5023",
+      "utr": "UTR900023",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_125": {
+      "settlement_id": "setl_5024",
+      "utr": "UTR900024",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 974.09
+    },
+    "stmt_126": {
+      "settlement_id": "setl_5025",
+      "utr": "UTR900025",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 500.64
+    },
+    "stmt_127": {
+      "settlement_id": "setl_5026",
+      "utr": "UTR900026",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_128": {
+      "settlement_id": "setl_5027",
+      "utr": "UTR900027",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_129": {
+      "settlement_id": "setl_5028",
+      "utr": "UTR900028",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_130": {
+      "settlement_id": "setl_5029",
+      "utr": "UTR900029",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_131": {
+      "settlement_id": "setl_5030",
+      "utr": "UTR900030",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_132": {
+      "settlement_id": "setl_5031",
+      "utr": "UTR900031",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_133": {
+      "settlement_id": "setl_5032",
+      "utr": "UTR900032",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_134": {
+      "settlement_id": "setl_5033",
+      "utr": "UTR900033",
+      "archetype": "Type_4",
+      "ground_label": "EXCEPTION_HUMAN",
+      "expected_engine": "TIER_2_UNRESOLVED",
+      "expected_variance": 0.0
+    },
+    "stmt_135": {
+      "settlement_id": "setl_5034",
+      "utr": "UTR900034",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 1068.65
+    },
+    "stmt_136": {
+      "settlement_id": "setl_5035",
+      "utr": "UTR900035",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_137": {
+      "settlement_id": "setl_5036",
+      "utr": "UTR900036",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_138": {
+      "settlement_id": "setl_5037",
+      "utr": "UTR900037",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_139": {
+      "settlement_id": "setl_5038",
+      "utr": "UTR900038",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_140": {
+      "settlement_id": "setl_5039",
+      "utr": "UTR900039",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_141": {
+      "settlement_id": "setl_5040",
+      "utr": "UTR900040",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_142": {
+      "settlement_id": "setl_5041",
+      "utr": "UTR900041",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_143": {
+      "settlement_id": "setl_5042",
+      "utr": "UTR900042",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_144": {
+      "settlement_id": "setl_5043",
+      "utr": "UTR900043",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_145": {
+      "settlement_id": "setl_5044",
+      "utr": "UTR900044",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_146": {
+      "settlement_id": "setl_5045",
+      "utr": "UTR900045",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_147": {
+      "settlement_id": "setl_5046",
+      "utr": "UTR900046",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_148": {
+      "settlement_id": "setl_5047",
+      "utr": "UTR900047",
+      "archetype": "Type_4",
+      "ground_label": "EXCEPTION_HUMAN",
+      "expected_engine": "TIER_2_UNRESOLVED",
+      "expected_variance": 0.0
+    },
+    "stmt_149": {
+      "settlement_id": "setl_5048",
+      "utr": "UTR900048",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_150": {
+      "settlement_id": "setl_5049",
+      "utr": "UTR900049",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_151": {
+      "settlement_id": "setl_5050",
+      "utr": "UTR900050",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_152": {
+      "settlement_id": "setl_5051",
+      "utr": "UTR900051",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_153": {
+      "settlement_id": "setl_5052",
+      "utr": "UTR900052",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_154": {
+      "settlement_id": "setl_5053",
+      "utr": "UTR900053",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_155": {
+      "settlement_id": "setl_5054",
+      "utr": "UTR900054",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_156": {
+      "settlement_id": "setl_5055",
+      "utr": "UTR900055",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_157": {
+      "settlement_id": "setl_5056",
+      "utr": "UTR900056",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_158": {
+      "settlement_id": "setl_5057",
+      "utr": "UTR900057",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_159": {
+      "settlement_id": "setl_5058",
+      "utr": "UTR900058",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_160": {
+      "settlement_id": "setl_5059",
+      "utr": "UTR900059",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_161": {
+      "settlement_id": "setl_5060",
+      "utr": "UTR900060",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_162": {
+      "settlement_id": "setl_5061",
+      "utr": "UTR900061",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_163": {
+      "settlement_id": "setl_5062",
+      "utr": "UTR900062",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_164": {
+      "settlement_id": "setl_5063",
+      "utr": "UTR900063",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 376.36
+    },
+    "stmt_165": {
+      "settlement_id": "setl_5064",
+      "utr": "UTR900064",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_166": {
+      "settlement_id": "setl_5065",
+      "utr": "UTR900065",
+      "archetype": "Type_4",
+      "ground_label": "EXCEPTION_HUMAN",
+      "expected_engine": "TIER_2_UNRESOLVED",
+      "expected_variance": 0.0
+    },
+    "stmt_167": {
+      "settlement_id": "setl_5066",
+      "utr": "UTR900066",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_168": {
+      "settlement_id": "setl_5067",
+      "utr": "UTR900067",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_169": {
+      "settlement_id": "setl_5068",
+      "utr": "UTR900068",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 1382.61
+    },
+    "stmt_170": {
+      "settlement_id": "setl_5069",
+      "utr": "UTR900069",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_171": {
+      "settlement_id": "setl_5070",
+      "utr": "UTR900070",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_172": {
+      "settlement_id": "setl_5071",
+      "utr": "UTR900071",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_173": {
+      "settlement_id": "setl_5072",
+      "utr": "UTR900072",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_174": {
+      "settlement_id": "setl_5073",
+      "utr": "UTR900073",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_175": {
+      "settlement_id": "setl_5074",
+      "utr": "UTR900074",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_176": {
+      "settlement_id": "setl_5075",
+      "utr": "UTR900075",
+      "archetype": "Type_4",
+      "ground_label": "EXCEPTION_HUMAN",
+      "expected_engine": "TIER_2_UNRESOLVED",
+      "expected_variance": 0.0
+    },
+    "stmt_177": {
+      "settlement_id": "setl_5076",
+      "utr": "UTR900076",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_178": {
+      "settlement_id": "setl_5077",
+      "utr": "UTR900077",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_179": {
+      "settlement_id": "setl_5078",
+      "utr": "UTR900078",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_180": {
+      "settlement_id": "setl_5079",
+      "utr": "UTR900079",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_181": {
+      "settlement_id": "setl_5080",
+      "utr": "UTR900080",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_182": {
+      "settlement_id": "setl_5081",
+      "utr": "UTR900081",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_183": {
+      "settlement_id": "setl_5082",
+      "utr": "UTR900082",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_184": {
+      "settlement_id": "setl_5083",
+      "utr": "UTR900083",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_185": {
+      "settlement_id": "setl_5084",
+      "utr": "UTR900084",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_186": {
+      "settlement_id": "setl_5085",
+      "utr": "UTR900085",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_187": {
+      "settlement_id": "setl_5086",
+      "utr": "UTR900086",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_188": {
+      "settlement_id": "setl_5087",
+      "utr": "UTR900087",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_189": {
+      "settlement_id": "setl_5088",
+      "utr": "UTR900088",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_190": {
+      "settlement_id": "setl_5089",
+      "utr": "UTR900089",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_191": {
+      "settlement_id": "setl_5090",
+      "utr": "UTR900090",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 234.67
+    },
+    "stmt_192": {
+      "settlement_id": "setl_5091",
+      "utr": "UTR900091",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_193": {
+      "settlement_id": "setl_5092",
+      "utr": "UTR900092",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_194": {
+      "settlement_id": "setl_5093",
+      "utr": "UTR900093",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_195": {
+      "settlement_id": "setl_5094",
+      "utr": "UTR900094",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_196": {
+      "settlement_id": "setl_5095",
+      "utr": "UTR900095",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_197": {
+      "settlement_id": "setl_5096",
+      "utr": "UTR900096",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_198": {
+      "settlement_id": "setl_5097",
+      "utr": "UTR900097",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_199": {
+      "settlement_id": "setl_5098",
+      "utr": "UTR900098",
+      "archetype": "Type_4",
+      "ground_label": "EXCEPTION_HUMAN",
+      "expected_engine": "TIER_2_UNRESOLVED",
+      "expected_variance": 0.0
+    },
+    "stmt_200": {
+      "settlement_id": "setl_5099",
+      "utr": "UTR900099",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_201": {
+      "settlement_id": "setl_5100",
+      "utr": "UTR900100",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_202": {
+      "settlement_id": "setl_5101",
+      "utr": "UTR900101",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_203": {
+      "settlement_id": "setl_5102",
+      "utr": "UTR900102",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_204": {
+      "settlement_id": "setl_5103",
+      "utr": "UTR900103",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_205": {
+      "settlement_id": "setl_5104",
+      "utr": "UTR900104",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_206": {
+      "settlement_id": "setl_5105",
+      "utr": "UTR900105",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_207": {
+      "settlement_id": "setl_5106",
+      "utr": "UTR900106",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_208": {
+      "settlement_id": "setl_5107",
+      "utr": "UTR900107",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_209": {
+      "settlement_id": "setl_5108",
+      "utr": "UTR900108",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_210": {
+      "settlement_id": "setl_5109",
+      "utr": "UTR900109",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_211": {
+      "settlement_id": "setl_5110",
+      "utr": "UTR900110",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 294.86
+    },
+    "stmt_212": {
+      "settlement_id": "setl_5111",
+      "utr": "UTR900111",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_213": {
+      "settlement_id": "setl_5112",
+      "utr": "UTR900112",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_214": {
+      "settlement_id": "setl_5113",
+      "utr": "UTR900113",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_215": {
+      "settlement_id": "setl_5114",
+      "utr": "UTR900114",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_216": {
+      "settlement_id": "setl_5115",
+      "utr": "UTR900115",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_217": {
+      "settlement_id": "setl_5116",
+      "utr": "UTR900116",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_218": {
+      "settlement_id": "setl_5117",
+      "utr": "UTR900117",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_219": {
+      "settlement_id": "setl_5118",
+      "utr": "UTR900118",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_220": {
+      "settlement_id": "setl_5119",
+      "utr": "UTR900119",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_221": {
+      "settlement_id": "setl_5120",
+      "utr": "UTR900120",
+      "archetype": "Type_4",
+      "ground_label": "EXCEPTION_HUMAN",
+      "expected_engine": "TIER_2_UNRESOLVED",
+      "expected_variance": 0.0
+    },
+    "stmt_222": {
+      "settlement_id": "setl_5121",
+      "utr": "UTR900121",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_223": {
+      "settlement_id": "setl_5122",
+      "utr": "UTR900122",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_224": {
+      "settlement_id": "setl_5123",
+      "utr": "UTR900123",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_225": {
+      "settlement_id": "setl_5124",
+      "utr": "UTR900124",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_226": {
+      "settlement_id": "setl_5125",
+      "utr": "UTR900125",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_227": {
+      "settlement_id": "setl_5126",
+      "utr": "UTR900126",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_228": {
+      "settlement_id": "setl_5127",
+      "utr": "UTR900127",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_229": {
+      "settlement_id": "setl_5128",
+      "utr": "UTR900128",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_230": {
+      "settlement_id": "setl_5129",
+      "utr": "UTR900129",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_231": {
+      "settlement_id": "setl_5130",
+      "utr": "UTR900130",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_232": {
+      "settlement_id": "setl_5131",
+      "utr": "UTR900131",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_233": {
+      "settlement_id": "setl_5132",
+      "utr": "UTR900132",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_234": {
+      "settlement_id": "setl_5133",
+      "utr": "UTR900133",
+      "archetype": "Type_4",
+      "ground_label": "EXCEPTION_HUMAN",
+      "expected_engine": "TIER_2_UNRESOLVED",
+      "expected_variance": 0.0
+    },
+    "stmt_235": {
+      "settlement_id": "setl_5134",
+      "utr": "UTR900134",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 801.91
+    },
+    "stmt_236": {
+      "settlement_id": "setl_5135",
+      "utr": "UTR900135",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_237": {
+      "settlement_id": "setl_5136",
+      "utr": "UTR900136",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_238": {
+      "settlement_id": "setl_5137",
+      "utr": "UTR900137",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_239": {
+      "settlement_id": "setl_5138",
+      "utr": "UTR900138",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_240": {
+      "settlement_id": "setl_5139",
+      "utr": "UTR900139",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_241": {
+      "settlement_id": "setl_5140",
+      "utr": "UTR900140",
+      "archetype": "Type_2",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 0.0
+    },
+    "stmt_242": {
+      "settlement_id": "setl_5141",
+      "utr": "UTR900141",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_243": {
+      "settlement_id": "setl_5142",
+      "utr": "UTR900142",
+      "archetype": "Type_3",
+      "ground_label": "MATCHED_AI",
+      "expected_engine": "TIER_2_AI",
+      "expected_variance": 1347.66
+    },
+    "stmt_244": {
+      "settlement_id": "setl_5143",
+      "utr": "UTR900143",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_245": {
+      "settlement_id": "setl_5144",
+      "utr": "UTR900144",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_246": {
+      "settlement_id": "setl_5145",
+      "utr": "UTR900145",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_247": {
+      "settlement_id": "setl_5146",
+      "utr": "UTR900146",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_248": {
+      "settlement_id": "setl_5147",
+      "utr": "UTR900147",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_249": {
+      "settlement_id": "setl_5148",
+      "utr": "UTR900148",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    },
+    "stmt_250": {
+      "settlement_id": "setl_5149",
+      "utr": "UTR900149",
+      "archetype": "Type_1",
+      "ground_label": "MATCHED_DETERMINISTIC",
+      "expected_engine": "TIER_1_SQL",
+      "expected_variance": 0.0
+    }
+  },
+  "leg1": {
+    "ord_1000": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13122.52,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1001": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 8321.0,
+      "expected_mdr": 166.42,
+      "gateway_fee": 166.42
+    },
+    "ord_1002": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5200.26,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1003": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13231.14,
+      "expected_mdr": 238.16,
+      "gateway_fee": 238.16
+    },
+    "ord_1004": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1503.58,
+      "expected_mdr": 30.07,
+      "gateway_fee": 30.07
+    },
+    "ord_1005": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8151.27,
+      "expected_mdr": 73.36,
+      "gateway_fee": 73.36
+    },
+    "ord_1006": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11451.35,
+      "expected_mdr": 229.03,
+      "gateway_fee": 229.03
+    },
+    "ord_1007": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10239.46,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1008": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 9032.38,
+      "expected_mdr": 0.0,
+      "gateway_fee": 56.74
+    },
+    "ord_1009": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 955.49,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1010": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10988.61,
+      "expected_mdr": 219.77,
+      "gateway_fee": 219.77
+    },
+    "ord_1011": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7358.11,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1012": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7271.86,
+      "expected_mdr": 145.44,
+      "gateway_fee": 145.44
+    },
+    "ord_1013": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1927.06,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1014": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4105.52,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1015": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4538.9,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1016": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14550.45,
+      "expected_mdr": 261.91,
+      "gateway_fee": 261.91
+    },
+    "ord_1017": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 13037.43,
+      "expected_mdr": 234.67,
+      "gateway_fee": 234.67
+    },
+    "ord_1018": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6161.12,
+      "expected_mdr": 110.9,
+      "gateway_fee": 110.9
+    },
+    "ord_1019": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3253.52,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1020": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1383.88,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1021": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14431.29,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1022": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 14153.14,
+      "expected_mdr": 127.38,
+      "gateway_fee": 185.58
+    },
+    "ord_1023": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3461.76,
+      "expected_mdr": 69.24,
+      "gateway_fee": 69.24
+    },
+    "ord_1024": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10239.51,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1025": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1551.88,
+      "expected_mdr": 13.97,
+      "gateway_fee": 13.97
+    },
+    "ord_1026": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2420.62,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1027": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4632.32,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1028": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14765.87,
+      "expected_mdr": 295.32,
+      "gateway_fee": 295.32
+    },
+    "ord_1029": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2173.72,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1030": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9270.03,
+      "expected_mdr": 185.4,
+      "gateway_fee": 185.4
+    },
+    "ord_1031": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4327.77,
+      "expected_mdr": 38.95,
+      "gateway_fee": 38.95
+    },
+    "ord_1032": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1139.26,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1033": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2842.94,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1034": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2122.17,
+      "expected_mdr": 38.2,
+      "gateway_fee": 38.2
+    },
+    "ord_1035": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6731.91,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1036": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14596.85,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1037": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13923.58,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1038": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3067.26,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1039": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 2808.37,
+      "expected_mdr": 56.17,
+      "gateway_fee": 153.24
+    },
+    "ord_1040": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3393.81,
+      "expected_mdr": 61.09,
+      "gateway_fee": 61.09
+    },
+    "ord_1041": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13134.18,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1042": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5591.62,
+      "expected_mdr": 50.32,
+      "gateway_fee": 50.32
+    },
+    "ord_1043": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5301.67,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1044": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8918.55,
+      "expected_mdr": 160.53,
+      "gateway_fee": 160.53
+    },
+    "ord_1045": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9290.03,
+      "expected_mdr": 83.61,
+      "gateway_fee": 83.61
+    },
+    "ord_1046": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4193.48,
+      "expected_mdr": 83.87,
+      "gateway_fee": 83.87
+    },
+    "ord_1047": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8307.55,
+      "expected_mdr": 166.15,
+      "gateway_fee": 166.15
+    },
+    "ord_1048": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5781.21,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1049": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10169.95,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1050": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3281.68,
+      "expected_mdr": 65.63,
+      "gateway_fee": 65.63
+    },
+    "ord_1051": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3023.4,
+      "expected_mdr": 27.21,
+      "gateway_fee": 27.21
+    },
+    "ord_1052": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6905.9,
+      "expected_mdr": 138.12,
+      "gateway_fee": 138.12
+    },
+    "ord_1053": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14417.56,
+      "expected_mdr": 288.35,
+      "gateway_fee": 288.35
+    },
+    "ord_1054": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10125.88,
+      "expected_mdr": 91.13,
+      "gateway_fee": 91.13
+    },
+    "ord_1055": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3905.59,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1056": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9363.47,
+      "expected_mdr": 187.27,
+      "gateway_fee": 187.27
+    },
+    "ord_1057": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8847.23,
+      "expected_mdr": 176.94,
+      "gateway_fee": 176.94
+    },
+    "ord_1058": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2639.78,
+      "expected_mdr": 52.8,
+      "gateway_fee": 52.8
+    },
+    "ord_1059": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13339.25,
+      "expected_mdr": 266.79,
+      "gateway_fee": 266.79
+    },
+    "ord_1060": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7118.7,
+      "expected_mdr": 142.37,
+      "gateway_fee": 142.37
+    },
+    "ord_1061": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13509.52,
+      "expected_mdr": 270.19,
+      "gateway_fee": 270.19
+    },
+    "ord_1062": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4084.98,
+      "expected_mdr": 36.76,
+      "gateway_fee": 36.76
+    },
+    "ord_1063": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9587.85,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1064": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4439.87,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1065": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6410.19,
+      "expected_mdr": 57.69,
+      "gateway_fee": 57.69
+    },
+    "ord_1066": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6592.08,
+      "expected_mdr": 118.66,
+      "gateway_fee": 118.66
+    },
+    "ord_1067": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 12922.61,
+      "expected_mdr": 258.45,
+      "gateway_fee": 258.45
+    },
+    "ord_1068": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5600.5,
+      "expected_mdr": 112.01,
+      "gateway_fee": 112.01
+    },
+    "ord_1069": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3681.61,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1070": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10347.56,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1071": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2350.6,
+      "expected_mdr": 21.16,
+      "gateway_fee": 21.16
+    },
+    "ord_1072": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8683.68,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1073": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4272.27,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1074": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 12606.21,
+      "expected_mdr": 113.46,
+      "gateway_fee": 258.65
+    },
+    "ord_1075": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 3751.22,
+      "expected_mdr": 0.0,
+      "gateway_fee": 53.1
+    },
+    "ord_1076": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4085.61,
+      "expected_mdr": 81.71,
+      "gateway_fee": 81.71
+    },
+    "ord_1077": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7242.99,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1078": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14474.15,
+      "expected_mdr": 289.48,
+      "gateway_fee": 289.48
+    },
+    "ord_1079": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13968.86,
+      "expected_mdr": 125.72,
+      "gateway_fee": 125.72
+    },
+    "ord_1080": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1977.57,
+      "expected_mdr": 39.55,
+      "gateway_fee": 39.55
+    },
+    "ord_1081": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2255.3,
+      "expected_mdr": 40.6,
+      "gateway_fee": 40.6
+    },
+    "ord_1082": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7836.43,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1083": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3053.99,
+      "expected_mdr": 27.49,
+      "gateway_fee": 27.49
+    },
+    "ord_1084": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13834.46,
+      "expected_mdr": 276.69,
+      "gateway_fee": 276.69
+    },
+    "ord_1085": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9090.88,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1086": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4544.46,
+      "expected_mdr": 40.9,
+      "gateway_fee": 40.9
+    },
+    "ord_1087": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3136.68,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1088": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 13264.64,
+      "expected_mdr": 265.29,
+      "gateway_fee": 265.29
+    },
+    "ord_1089": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14246.91,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1090": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11997.53,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1091": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4939.99,
+      "expected_mdr": 44.46,
+      "gateway_fee": 44.46
+    },
+    "ord_1092": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6669.81,
+      "expected_mdr": 133.4,
+      "gateway_fee": 133.4
+    },
+    "ord_1093": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4428.29,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1094": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3637.58,
+      "expected_mdr": 32.74,
+      "gateway_fee": 32.74
+    },
+    "ord_1095": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8107.23,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1096": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 4882.88,
+      "expected_mdr": 97.66,
+      "gateway_fee": 153.11
+    },
+    "ord_1097": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4735.98,
+      "expected_mdr": 85.25,
+      "gateway_fee": 85.25
+    },
+    "ord_1098": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7441.36,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1099": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12994.98,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1100": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8866.81,
+      "expected_mdr": 177.34,
+      "gateway_fee": 177.34
+    },
+    "ord_1101": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14262.32,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1102": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7032.46,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1103": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4928.01,
+      "expected_mdr": 44.35,
+      "gateway_fee": 44.35
+    },
+    "ord_1104": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14240.06,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1105": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 2777.33,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1106": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 973.28,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1107": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1532.11,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1108": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9051.95,
+      "expected_mdr": 181.04,
+      "gateway_fee": 181.04
+    },
+    "ord_1109": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12486.15,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1110": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11359.89,
+      "expected_mdr": 102.24,
+      "gateway_fee": 102.24
+    },
+    "ord_1111": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10485.83,
+      "expected_mdr": 209.72,
+      "gateway_fee": 209.72
+    },
+    "ord_1112": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9171.53,
+      "expected_mdr": 183.43,
+      "gateway_fee": 183.43
+    },
+    "ord_1113": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14447.71,
+      "expected_mdr": 288.95,
+      "gateway_fee": 288.95
+    },
+    "ord_1114": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 14993.8,
+      "expected_mdr": 299.88,
+      "gateway_fee": 425.51
+    },
+    "ord_1115": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3131.59,
+      "expected_mdr": 28.18,
+      "gateway_fee": 28.18
+    },
+    "ord_1116": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1823.01,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1117": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12937.13,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1118": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1776.87,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1119": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13041.2,
+      "expected_mdr": 260.82,
+      "gateway_fee": 260.82
+    },
+    "ord_1120": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7198.66,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1121": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7728.15,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1122": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13272.28,
+      "expected_mdr": 119.45,
+      "gateway_fee": 119.45
+    },
+    "ord_1123": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 12090.05,
+      "expected_mdr": 241.8,
+      "gateway_fee": 241.8
+    },
+    "ord_1124": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6415.86,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1125": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14232.38,
+      "expected_mdr": 128.09,
+      "gateway_fee": 128.09
+    },
+    "ord_1126": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12603.5,
+      "expected_mdr": 226.86,
+      "gateway_fee": 226.86
+    },
+    "ord_1127": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6062.0,
+      "expected_mdr": 109.12,
+      "gateway_fee": 109.12
+    },
+    "ord_1128": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13028.39,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1129": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14046.6,
+      "expected_mdr": 126.42,
+      "gateway_fee": 126.42
+    },
+    "ord_1130": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6974.94,
+      "expected_mdr": 62.77,
+      "gateway_fee": 62.77
+    },
+    "ord_1131": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5969.55,
+      "expected_mdr": 107.45,
+      "gateway_fee": 107.45
+    },
+    "ord_1132": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12912.19,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1133": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13744.74,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1134": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7783.22,
+      "expected_mdr": 70.05,
+      "gateway_fee": 70.05
+    },
+    "ord_1135": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6884.44,
+      "expected_mdr": 61.96,
+      "gateway_fee": 61.96
+    },
+    "ord_1136": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7307.61,
+      "expected_mdr": 131.54,
+      "gateway_fee": 131.54
+    },
+    "ord_1137": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14335.02,
+      "expected_mdr": 129.02,
+      "gateway_fee": 129.02
+    },
+    "ord_1138": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8344.73,
+      "expected_mdr": 75.1,
+      "gateway_fee": 75.1
+    },
+    "ord_1139": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4667.0,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1140": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11525.36,
+      "expected_mdr": 230.51,
+      "gateway_fee": 230.51
+    },
+    "ord_1141": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5203.43,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1142": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2964.76,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1143": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3992.03,
+      "expected_mdr": 71.86,
+      "gateway_fee": 71.86
+    },
+    "ord_1144": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10169.19,
+      "expected_mdr": 203.38,
+      "gateway_fee": 203.38
+    },
+    "ord_1145": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8425.67,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1146": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4837.74,
+      "expected_mdr": 87.08,
+      "gateway_fee": 87.08
+    },
+    "ord_1147": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12873.36,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1148": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4790.15,
+      "expected_mdr": 95.8,
+      "gateway_fee": 95.8
+    },
+    "ord_1149": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6239.18,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1150": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14617.24,
+      "expected_mdr": 263.11,
+      "gateway_fee": 263.11
+    },
+    "ord_1151": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3675.57,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1152": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11628.33,
+      "expected_mdr": 232.57,
+      "gateway_fee": 232.57
+    },
+    "ord_1153": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 9598.14,
+      "expected_mdr": 0.0,
+      "gateway_fee": 86.49
+    },
+    "ord_1154": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5237.43,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1155": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13208.68,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1156": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2885.89,
+      "expected_mdr": 51.95,
+      "gateway_fee": 51.95
+    },
+    "ord_1157": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7290.81,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1158": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11964.89,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1159": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2071.02,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1160": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8640.41,
+      "expected_mdr": 155.53,
+      "gateway_fee": 155.53
+    },
+    "ord_1161": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12445.9,
+      "expected_mdr": 224.03,
+      "gateway_fee": 224.03
+    },
+    "ord_1162": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4913.29,
+      "expected_mdr": 44.22,
+      "gateway_fee": 44.22
+    },
+    "ord_1163": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13338.5,
+      "expected_mdr": 266.77,
+      "gateway_fee": 266.77
+    },
+    "ord_1164": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14116.27,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1165": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1940.64,
+      "expected_mdr": 38.81,
+      "gateway_fee": 38.81
+    },
+    "ord_1166": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5700.77,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1167": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12796.48,
+      "expected_mdr": 115.17,
+      "gateway_fee": 115.17
+    },
+    "ord_1168": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4031.75,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1169": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11594.78,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1170": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 5264.11,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1171": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12078.45,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1172": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 5694.51,
+      "expected_mdr": 113.89,
+      "gateway_fee": 113.89
+    },
+    "ord_1173": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4347.83,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1174": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11781.25,
+      "expected_mdr": 106.03,
+      "gateway_fee": 106.03
+    },
+    "ord_1175": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14208.53,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1176": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8061.04,
+      "expected_mdr": 72.55,
+      "gateway_fee": 72.55
+    },
+    "ord_1177": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7445.24,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1178": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1452.39,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1179": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5215.19,
+      "expected_mdr": 93.87,
+      "gateway_fee": 93.87
+    },
+    "ord_1180": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11999.89,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1181": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7047.55,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1182": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6531.85,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1183": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5927.36,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1184": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12560.69,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1185": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10215.19,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1186": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6632.58,
+      "expected_mdr": 119.39,
+      "gateway_fee": 119.39
+    },
+    "ord_1187": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5030.51,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1188": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5576.65,
+      "expected_mdr": 50.19,
+      "gateway_fee": 50.19
+    },
+    "ord_1189": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 9330.43,
+      "expected_mdr": 186.61,
+      "gateway_fee": 186.61
+    },
+    "ord_1190": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5589.84,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1191": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1508.99,
+      "expected_mdr": 30.18,
+      "gateway_fee": 30.18
+    },
+    "ord_1192": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8192.0,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1193": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2755.91,
+      "expected_mdr": 55.12,
+      "gateway_fee": 55.12
+    },
+    "ord_1194": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6505.66,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1195": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2107.9,
+      "expected_mdr": 42.16,
+      "gateway_fee": 42.16
+    },
+    "ord_1196": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 4972.08,
+      "expected_mdr": 0.0,
+      "gateway_fee": 70.44
+    },
+    "ord_1197": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14207.2,
+      "expected_mdr": 284.14,
+      "gateway_fee": 284.14
+    },
+    "ord_1198": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11331.7,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1199": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7753.8,
+      "expected_mdr": 155.08,
+      "gateway_fee": 155.08
+    },
+    "ord_1200": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12995.58,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1201": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13000.6,
+      "expected_mdr": 117.01,
+      "gateway_fee": 117.01
+    },
+    "ord_1202": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 802.42,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1203": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12564.38,
+      "expected_mdr": 226.16,
+      "gateway_fee": 226.16
+    },
+    "ord_1204": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4028.09,
+      "expected_mdr": 36.25,
+      "gateway_fee": 36.25
+    },
+    "ord_1205": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4998.98,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1206": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13635.88,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1207": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12318.04,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1208": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7227.32,
+      "expected_mdr": 65.05,
+      "gateway_fee": 65.05
+    },
+    "ord_1209": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13289.7,
+      "expected_mdr": 119.61,
+      "gateway_fee": 119.61
+    },
+    "ord_1210": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14579.11,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1211": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9655.08,
+      "expected_mdr": 193.1,
+      "gateway_fee": 193.1
+    },
+    "ord_1212": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1045.31,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1213": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14671.84,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1214": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 8914.78,
+      "expected_mdr": 160.47,
+      "gateway_fee": 301.37
+    },
+    "ord_1215": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8789.02,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1216": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12259.02,
+      "expected_mdr": 245.18,
+      "gateway_fee": 245.18
+    },
+    "ord_1217": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14869.3,
+      "expected_mdr": 133.82,
+      "gateway_fee": 133.82
+    },
+    "ord_1218": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13810.08,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1219": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1259.3,
+      "expected_mdr": 11.33,
+      "gateway_fee": 11.33
+    },
+    "ord_1220": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8590.47,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1221": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1681.78,
+      "expected_mdr": 33.64,
+      "gateway_fee": 33.64
+    },
+    "ord_1222": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10012.79,
+      "expected_mdr": 200.26,
+      "gateway_fee": 200.26
+    },
+    "ord_1223": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1728.43,
+      "expected_mdr": 15.56,
+      "gateway_fee": 15.56
+    },
+    "ord_1224": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7873.08,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1225": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5455.12,
+      "expected_mdr": 109.1,
+      "gateway_fee": 109.1
+    },
+    "ord_1226": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2746.71,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1227": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8326.68,
+      "expected_mdr": 166.53,
+      "gateway_fee": 166.53
+    },
+    "ord_1228": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2852.58,
+      "expected_mdr": 57.05,
+      "gateway_fee": 57.05
+    },
+    "ord_1229": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2900.32,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1230": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11409.67,
+      "expected_mdr": 228.19,
+      "gateway_fee": 228.19
+    },
+    "ord_1231": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14501.15,
+      "expected_mdr": 290.02,
+      "gateway_fee": 290.02
+    },
+    "ord_1232": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10335.45,
+      "expected_mdr": 93.02,
+      "gateway_fee": 93.02
+    },
+    "ord_1233": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12344.92,
+      "expected_mdr": 246.9,
+      "gateway_fee": 246.9
+    },
+    "ord_1234": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9797.1,
+      "expected_mdr": 195.94,
+      "gateway_fee": 195.94
+    },
+    "ord_1235": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4455.47,
+      "expected_mdr": 80.2,
+      "gateway_fee": 80.2
+    },
+    "ord_1236": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14222.99,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1237": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6099.41,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1238": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1936.71,
+      "expected_mdr": 38.73,
+      "gateway_fee": 38.73
+    },
+    "ord_1239": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10593.04,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1240": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 576.14,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1241": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8457.66,
+      "expected_mdr": 169.15,
+      "gateway_fee": 169.15
+    },
+    "ord_1242": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4677.47,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1243": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 2107.44,
+      "expected_mdr": 37.93,
+      "gateway_fee": 37.93
+    },
+    "ord_1244": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4723.44,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1245": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3216.05,
+      "expected_mdr": 64.32,
+      "gateway_fee": 64.32
+    },
+    "ord_1246": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13163.31,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1247": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11336.09,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1248": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10028.01,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1249": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2434.44,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1250": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12266.72,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1251": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 4754.92,
+      "expected_mdr": 0.0,
+      "gateway_fee": 143.34
+    },
+    "ord_1252": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4173.05,
+      "expected_mdr": 83.46,
+      "gateway_fee": 83.46
+    },
+    "ord_1253": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11822.2,
+      "expected_mdr": 236.44,
+      "gateway_fee": 236.44
+    },
+    "ord_1254": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5836.28,
+      "expected_mdr": 116.73,
+      "gateway_fee": 116.73
+    },
+    "ord_1255": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6106.35,
+      "expected_mdr": 109.91,
+      "gateway_fee": 109.91
+    },
+    "ord_1256": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11042.68,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1257": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1661.0,
+      "expected_mdr": 33.22,
+      "gateway_fee": 33.22
+    },
+    "ord_1258": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5597.43,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1259": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14973.18,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1260": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1588.1,
+      "expected_mdr": 14.29,
+      "gateway_fee": 14.29
+    },
+    "ord_1261": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10351.45,
+      "expected_mdr": 186.33,
+      "gateway_fee": 186.33
+    },
+    "ord_1262": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3921.93,
+      "expected_mdr": 35.3,
+      "gateway_fee": 35.3
+    },
+    "ord_1263": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14257.94,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1264": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8177.17,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1265": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2145.0,
+      "expected_mdr": 42.9,
+      "gateway_fee": 42.9
+    },
+    "ord_1266": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8644.25,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1267": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3402.59,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1268": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10843.86,
+      "expected_mdr": 195.19,
+      "gateway_fee": 195.19
+    },
+    "ord_1269": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14805.33,
+      "expected_mdr": 296.11,
+      "gateway_fee": 296.11
+    },
+    "ord_1270": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4710.25,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1271": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2259.76,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1272": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 881.12,
+      "expected_mdr": 7.93,
+      "gateway_fee": 7.93
+    },
+    "ord_1273": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1453.35,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1274": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2317.24,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1275": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6772.97,
+      "expected_mdr": 121.91,
+      "gateway_fee": 121.91
+    },
+    "ord_1276": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2718.72,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1277": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4133.78,
+      "expected_mdr": 37.2,
+      "gateway_fee": 37.2
+    },
+    "ord_1278": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9081.22,
+      "expected_mdr": 81.73,
+      "gateway_fee": 81.73
+    },
+    "ord_1279": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 13579.01,
+      "expected_mdr": 0.0,
+      "gateway_fee": 136.38
+    },
+    "ord_1280": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9941.38,
+      "expected_mdr": 198.83,
+      "gateway_fee": 198.83
+    },
+    "ord_1281": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7721.55,
+      "expected_mdr": 69.49,
+      "gateway_fee": 69.49
+    },
+    "ord_1282": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7502.7,
+      "expected_mdr": 150.05,
+      "gateway_fee": 150.05
+    },
+    "ord_1283": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7521.64,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1284": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10916.26,
+      "expected_mdr": 218.33,
+      "gateway_fee": 218.33
+    },
+    "ord_1285": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2396.11,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1286": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7263.85,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1287": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4099.92,
+      "expected_mdr": 82.0,
+      "gateway_fee": 82.0
+    },
+    "ord_1288": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8876.46,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1289": {
+      "expected_label": "STATUS_MISMATCH",
+      "oms_amount": 7963.51,
+      "expected_mdr": 71.67,
+      "gateway_fee": 71.67
+    },
+    "ord_1290": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14205.88,
+      "expected_mdr": 127.85,
+      "gateway_fee": 127.85
+    },
+    "ord_1291": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4579.67,
+      "expected_mdr": 41.22,
+      "gateway_fee": 41.22
+    },
+    "ord_1292": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6748.45,
+      "expected_mdr": 134.97,
+      "gateway_fee": 134.97
+    },
+    "ord_1293": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1241.79,
+      "expected_mdr": 11.18,
+      "gateway_fee": 11.18
+    },
+    "ord_1294": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6102.06,
+      "expected_mdr": 54.92,
+      "gateway_fee": 54.92
+    },
+    "ord_1295": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9537.0,
+      "expected_mdr": 85.83,
+      "gateway_fee": 85.83
+    },
+    "ord_1296": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5911.38,
+      "expected_mdr": 106.4,
+      "gateway_fee": 106.4
+    },
+    "ord_1297": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7751.13,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1298": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7369.29,
+      "expected_mdr": 66.32,
+      "gateway_fee": 66.32
+    },
+    "ord_1299": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5255.5,
+      "expected_mdr": 47.3,
+      "gateway_fee": 47.3
+    },
+    "ord_1300": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11220.13,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1301": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12328.36,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1302": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8963.68,
+      "expected_mdr": 179.27,
+      "gateway_fee": 179.27
+    },
+    "ord_1303": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 886.38,
+      "expected_mdr": 7.98,
+      "gateway_fee": 7.98
+    },
+    "ord_1304": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11754.35,
+      "expected_mdr": 105.79,
+      "gateway_fee": 105.79
+    },
+    "ord_1305": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12414.09,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1306": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3266.37,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1307": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13155.86,
+      "expected_mdr": 263.12,
+      "gateway_fee": 263.12
+    },
+    "ord_1308": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3506.45,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1309": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5049.41,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1310": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5637.16,
+      "expected_mdr": 112.74,
+      "gateway_fee": 112.74
+    },
+    "ord_1311": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14381.39,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1312": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14742.77,
+      "expected_mdr": 294.86,
+      "gateway_fee": 294.86
+    },
+    "ord_1313": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8627.07,
+      "expected_mdr": 155.29,
+      "gateway_fee": 155.29
+    },
+    "ord_1314": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8815.41,
+      "expected_mdr": 79.34,
+      "gateway_fee": 79.34
+    },
+    "ord_1315": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 5504.45,
+      "expected_mdr": 110.09,
+      "gateway_fee": 255.62
+    },
+    "ord_1316": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10011.59,
+      "expected_mdr": 200.23,
+      "gateway_fee": 200.23
+    },
+    "ord_1317": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4431.42,
+      "expected_mdr": 39.88,
+      "gateway_fee": 39.88
+    },
+    "ord_1318": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11242.92,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1319": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3772.24,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1320": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 575.13,
+      "expected_mdr": 5.18,
+      "gateway_fee": 5.18
+    },
+    "ord_1321": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14057.97,
+      "expected_mdr": 281.16,
+      "gateway_fee": 281.16
+    },
+    "ord_1322": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 9865.52,
+      "expected_mdr": 177.58,
+      "gateway_fee": 177.58
+    },
+    "ord_1323": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8259.71,
+      "expected_mdr": 165.19,
+      "gateway_fee": 165.19
+    },
+    "ord_1324": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3038.44,
+      "expected_mdr": 60.77,
+      "gateway_fee": 60.77
+    },
+    "ord_1325": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14080.83,
+      "expected_mdr": 253.45,
+      "gateway_fee": 253.45
+    },
+    "ord_1326": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 634.37,
+      "expected_mdr": 5.71,
+      "gateway_fee": 5.71
+    },
+    "ord_1327": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13394.27,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1328": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12227.8,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1329": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10919.67,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1330": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10278.82,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1331": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1757.7,
+      "expected_mdr": 35.15,
+      "gateway_fee": 35.15
+    },
+    "ord_1332": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5192.22,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1333": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11429.47,
+      "expected_mdr": 205.73,
+      "gateway_fee": 205.73
+    },
+    "ord_1334": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10545.14,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1335": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6378.54,
+      "expected_mdr": 57.41,
+      "gateway_fee": 57.41
+    },
+    "ord_1336": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5009.18,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1337": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14381.73,
+      "expected_mdr": 129.44,
+      "gateway_fee": 129.44
+    },
+    "ord_1338": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5917.56,
+      "expected_mdr": 118.35,
+      "gateway_fee": 118.35
+    },
+    "ord_1339": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8158.51,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1340": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12517.22,
+      "expected_mdr": 225.31,
+      "gateway_fee": 225.31
+    },
+    "ord_1341": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2885.79,
+      "expected_mdr": 57.72,
+      "gateway_fee": 57.72
+    },
+    "ord_1342": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10895.31,
+      "expected_mdr": 98.06,
+      "gateway_fee": 98.06
+    },
+    "ord_1343": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7942.09,
+      "expected_mdr": 71.48,
+      "gateway_fee": 71.48
+    },
+    "ord_1344": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12200.27,
+      "expected_mdr": 244.01,
+      "gateway_fee": 244.01
+    },
+    "ord_1345": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6643.61,
+      "expected_mdr": 132.87,
+      "gateway_fee": 132.87
+    },
+    "ord_1346": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4662.82,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1347": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7003.79,
+      "expected_mdr": 126.07,
+      "gateway_fee": 126.07
+    },
+    "ord_1348": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14480.09,
+      "expected_mdr": 289.6,
+      "gateway_fee": 289.6
+    },
+    "ord_1349": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2220.18,
+      "expected_mdr": 39.96,
+      "gateway_fee": 39.96
+    },
+    "ord_1350": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14691.5,
+      "expected_mdr": 293.83,
+      "gateway_fee": 293.83
+    },
+    "ord_1351": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4088.92,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1352": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11012.85,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1353": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 1475.72,
+      "expected_mdr": 13.28,
+      "gateway_fee": 13.28
+    },
+    "ord_1354": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13147.08,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1355": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2531.97,
+      "expected_mdr": 45.58,
+      "gateway_fee": 45.58
+    },
+    "ord_1356": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3935.11,
+      "expected_mdr": 78.7,
+      "gateway_fee": 78.7
+    },
+    "ord_1357": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6496.62,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1358": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11160.58,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1359": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11894.17,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1360": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5958.67,
+      "expected_mdr": 119.17,
+      "gateway_fee": 119.17
+    },
+    "ord_1361": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 4860.68,
+      "expected_mdr": 97.21,
+      "gateway_fee": 97.21
+    },
+    "ord_1362": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8654.6,
+      "expected_mdr": 155.78,
+      "gateway_fee": 155.78
+    },
+    "ord_1363": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 5288.81,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1364": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8266.72,
+      "expected_mdr": 165.33,
+      "gateway_fee": 165.33
+    },
+    "ord_1365": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7451.22,
+      "expected_mdr": 149.02,
+      "gateway_fee": 149.02
+    },
+    "ord_1366": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 722.34,
+      "expected_mdr": 13.0,
+      "gateway_fee": 13.0
+    },
+    "ord_1367": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 6251.16,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1368": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7260.63,
+      "expected_mdr": 65.35,
+      "gateway_fee": 65.35
+    },
+    "ord_1369": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 13757.79,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1370": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3708.47,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1371": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8897.57,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1372": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8484.32,
+      "expected_mdr": 152.72,
+      "gateway_fee": 152.72
+    },
+    "ord_1373": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 7585.01,
+      "expected_mdr": 151.7,
+      "gateway_fee": 151.7
+    },
+    "ord_1374": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 11125.2,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1375": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 3168.69,
+      "expected_mdr": 63.37,
+      "gateway_fee": 63.37
+    },
+    "ord_1376": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 14205.23,
+      "expected_mdr": 284.1,
+      "gateway_fee": 284.1
+    },
+    "ord_1377": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 632.55,
+      "expected_mdr": 5.69,
+      "gateway_fee": 5.69
+    },
+    "ord_1378": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 10167.94,
+      "expected_mdr": 91.51,
+      "gateway_fee": 91.51
+    },
+    "ord_1379": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 742.53,
+      "expected_mdr": 14.85,
+      "gateway_fee": 14.85
+    },
+    "ord_1380": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2051.74,
+      "expected_mdr": 0.0,
+      "gateway_fee": 0.0
+    },
+    "ord_1381": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8133.61,
+      "expected_mdr": 162.67,
+      "gateway_fee": 162.67
+    },
+    "ord_1382": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 8692.53,
+      "expected_mdr": 156.47,
+      "gateway_fee": 156.47
+    },
+    "ord_1383": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 12794.07,
+      "expected_mdr": 255.88,
+      "gateway_fee": 255.88
+    },
+    "ord_1384": {
+      "expected_label": "FEE_VARIANCE",
+      "oms_amount": 1855.76,
+      "expected_mdr": 0.0,
+      "gateway_fee": 50.95
+    },
+    "ord_1385": {
+      "expected_label": "MATCHED_CLEAN",
+      "oms_amount": 2985.06,
+      "expected_mdr": 26.87,
+      "gateway_fee": 26.87
+    }
   }
 }
