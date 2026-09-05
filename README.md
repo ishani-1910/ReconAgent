@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An enterprise-grade autonomous financial reconciliation and settlement controller that verifies cash liquidity, matches multi-source records (**OMS** $\leftrightarrow$ **Gateway** $\leftrightarrow$ **Bank**), detects fee/refund variances, and resolves cryptic banking narrations using a bounded, cost-aware multi-tier engine (DuckDB SQL + Gemini GenAI).
+A bounded, cost-aware financial reconciliation controller that verifies cash liquidity and matches multi-source records (OMS ↔ Gateway ↔ Bank) using a two-tier engine — free deterministic SQL first, a confidence-gated Gemini investigator only for genuine exceptions. It detects fee and refund variances automatically, and for cryptic banking narrations it resolves what it can and honestly escalates what it can't to a human auditor
 
 OPEN THE PROJECT HERE : https://reconagent-ai.streamlit.app/
 
