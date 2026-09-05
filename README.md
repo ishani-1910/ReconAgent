@@ -12,65 +12,6 @@ OPEN THE PROJECT HERE : https://reconagent-ai.streamlit.app/
 
 ---
 
-## Architecture Blueprint
-
-```
-                               ┌──────────────────────────────┐
-                               │   Raw Transaction Sources    │
-                               │  - OMS Order Ledger          │
-                               │    (payment_method, risk_tier)│
-                               │  - Gateway Payments & Batches│
-                               │    (order_ids, fees, net)    │
-                               │  - Bank Statement Feeds      │
-                               └──────────────┬───────────────┘
-                                              │
-                                              ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                      PERSISTENT OLAP (DuckDB: data/recon_agent.duckdb)                  │
-│                                                                                         │
-│  [RAW_STAGE]    : Ingested OMS, Gateway Payments, Settlement Batches, and Bank Feeds    │
-│  [FACT_STAGE]   : Order-level MDR/GST/Holdback math, batch aggregation, clearing dates  │
-└─────────────────────────────────────────────┬───────────────────────────────────────────┘
-                                              │
-                    ┌─────────────────────────┴─────────────────────────┐
-                    ▼                                                   ▼
-┌───────────────────────────────────────┐               ┌───────────────────────────────────────┐
-│       LEG 1: COMMERCIAL RECON         │               │     LEG 2: SETTLEMENT CASH RECON      │
-│     OMS Orders <──> Gateway Payments  │               │   Gateway Batches <──> Bank Feeds     │
-│  - Key: order_id (1:1 join)           │               └───────────────────┬───────────────────┘
-│  - Status match (COMPLETED vs CAPTURED)                                   │
-│  - MDR fee validation by payment type │                         ┌─────────┴─────────┐
-│  - High-risk holdback (10%) check     │                         ▼                   ▼
-│  - Output: commercial_recon_ledger    │              ┌────────────────────┐ ┌───────────────────┐
-└───────────────────────────────────────┘              │ Tier 1: SQL Engine │ │  Unmatched Queue  │
-                                                       │ - Exact UTR token  │ └─────────┬─────────┘
-                                                       │ - Net Amount ±₹1   │           │
-                                                       │ - T+0 to T+5 Dates │           ▼
-                                                       └─────────┬──────────┘ ┌───────────────────┐
-                                                                 │            │ Candidate Filter  │
-                                                                 │            │ Top-3 SQL Scored  │
-                                                                 │            └─────────┬─────────┘
-                                                                 │                      │
-                                                                 │                      ▼
-                                                                 │            ┌───────────────────┐
-                                                                 │            │ Tier 1.5 / Tier 2 │
-                                                                 │            ├───────────────────┤
-                                                                 │            │ [If API Key]:     │
-                                                                 │            │ Tier 2 Gemini AI  │
-                                                                 │            │ (Live tokens/time)│
-                                                                 │            │                   │
-                                                                 │            │ [If Offline]:     │
-                                                                 │            │ Tier 1.5 Rule Eng │
-                                                                 │            │ (Deterministic)   │
-                                                                 │            └─────────┬─────────┘
-                                                                 ▼                      ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                        RECON_LEDGER & AUDIT TRAIL (DuckDB)                              │
-│  Status: MATCHED_DETERMINISTIC | MATCHED_AI | MATCHED_RULE | EXCEPTION_HUMAN            │
-│  Metrics: tokens_used, latency_ms, variance_explained, audit_reason                     │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## Key Highlights & Innovations
@@ -106,37 +47,6 @@ OPEN THE PROJECT HERE : https://reconagent-ai.streamlit.app/
    - Database is persistent on disk at `data/recon_agent.duckdb`.
 
 ---
-
-## Evaluation Benchmark & Verification
-
-Evaluated across both Leg 1 (Commercial) and Leg 2 (Cash Settlement):
-
-```
-=================================================================
-      RAZORPAY RECONAGENT: BENCHMARK & EVALUATION REPORT
-=================================================================
-Tier 2 Execution Engine      : [LIVE GEMINI 2.5 FLASH / TIER 1.5 RULE]
------------------------------------------------------------------
-LEG 1: Commercial Recon Acc  : 386/386 (100.00%)
-  Clean Orders Matched       : 361
-  Status Mismatches Detected : 11
-  Fee Variances Detected     : 14
-  Total Fee Leakage Flagged  : Rs.1,365.41
------------------------------------------------------------------
-LEG 2: Bank Records Evaluated: 150
-  Tier 1 Deterministic Match : 105/105 (100.0%) [Rs.0 Tokens]
-  Tier 2 / 1.5 Match Rate    : 37/38 (97.4%)
-  Adversarial Traps Handled  : 7/7 (100.0%)
-  Hallucination / False Pos  : 0 (0.00%)
-  Overall Cash Recon Acc     : 99.33%
------------------------------------------------------------------
-CONFUSION MATRIX:
-  True Positives (Matched Correctly) : 142
-  True Negatives (Traps Unresolved)  : 7
-  False Positives (Hallucinations)   : 0
-  False Negatives (Missed Matches)   : 1
-=================================================================
-```
 
 ---
 
@@ -175,3 +85,7 @@ python -u eval/benchmark.py
 streamlit run app/streamlit_app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
+
+---
+FOR DETAILED INFORMATION ABOUT THE ARCHITECTURAL DESGIN PLEASE READ THE DOCUMENTATION
+
