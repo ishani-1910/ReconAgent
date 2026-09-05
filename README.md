@@ -140,33 +140,6 @@ CONFUSION MATRIX:
 
 ---
 
-## Project Structure
-
-```
-ReconAgent/
-├── .env                        # Configure GEMINI_API_KEY here
-├── data/
-│   ├── generator.py            # Multi-archetype feed generator with payment methods & fees
-│   ├── ground_truth.json       # Ground truth registry for Leg 1 and Leg 2 validation
-│   └── recon_agent.duckdb      # Persistent DuckDB database file
-├── db/
-│   ├── duckdb_client.py        # Persistent DuckDB session & parameterized execution
-│   └── schema.sql              # RAW_STAGE, FACT_STAGE, and RECON_LEDGER DDL
-├── engine/
-│   ├── tier1_sql.py            # Leg 1 commercial recon & Leg 2 deterministic SQL matcher
-│   ├── tier2_ai.py             # Live Gemini 2.5 Flash GenAI & Tier 1.5 rule engine
-│   └── controller.py           # Pipeline orchestrator with telemetry tracking
-├── app/
-│   └── streamlit_app.py        # 4-Tab interactive CFO & Auditor cockpit
-├── eval/
-│   └── benchmark.py            # Programmatic confusion matrix & accuracy evaluator
-├── tests/
-│   └── test_reconciliation.py  # Automated pytest test suite
-├── requirements.txt            # duckdb, streamlit, pydantic, google-genai, pandas, pytest, python-dotenv
-└── README.md                   # System documentation & architectural pitch
-```
-
----
 
 ## Quick Start
 
