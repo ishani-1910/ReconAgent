@@ -16,10 +16,15 @@ def restore():
         print(f"Error: Golden reference file not found at {GOLDEN_PATH}")
         sys.exit(1)
 
-    shutil.copyfile(GOLDEN_PATH, LIVE_PATH)
-    print(f"Success: Restored live database from golden baseline.")
-    print(f"  Source: {GOLDEN_PATH} ({os.path.getsize(GOLDEN_PATH):,} bytes)")
-    print(f"  Target: {LIVE_PATH} ({os.path.getsize(LIVE_PATH):,} bytes)")
+    try:
+        shutil.copyfile(GOLDEN_PATH, LIVE_PATH)
+        print(f"Success: Restored live database from golden baseline.")
+        print(f"  Source: {GOLDEN_PATH} ({os.path.getsize(GOLDEN_PATH):,} bytes)")
+        print(f"  Target: {LIVE_PATH} ({os.path.getsize(LIVE_PATH):,} bytes)")
+    except PermissionError:
+        print(f"Warning: {LIVE_PATH} is currently locked by a running process (e.g. Streamlit).")
+        print("Please stop Streamlit first or use the 'Reset Golden DB' button in the web UI.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     restore()

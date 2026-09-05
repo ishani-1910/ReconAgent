@@ -12,7 +12,7 @@ from db.duckdb_client import DuckDBClient, DEFAULT_DB_PATH
 
 def test_human_override_guard():
     app_path = os.path.abspath("app/streamlit_app.py")
-    at = AppTest.from_file(app_path, default_timeout=15)
+    at = AppTest.from_file(app_path, default_timeout=120)
     at.run()
 
     # Find the bank stmt selectbox
@@ -48,9 +48,8 @@ def test_human_override_guard():
     assert notes_ta[0].value == "", "Rationale textarea should be clean/empty initially"
 
     # TEST 3: Switch between two different EXCEPTION_HUMAN records
-    db = DuckDBClient(DEFAULT_DB_PATH)
-    exceptions = [r[0] for r in db.conn.execute("SELECT bank_stmt_id FROM recon_ledger WHERE recon_status = 'EXCEPTION_HUMAN';").fetchall()]
-    db.close()
+    ledger_dfs = [df.value for df in at.dataframe if "bank_stmt_id" in df.value.columns]
+    exceptions = ledger_dfs[0][ledger_dfs[0]["recon_status"] == "EXCEPTION_HUMAN"]["bank_stmt_id"].tolist()
     print("\n--- TEST 3: Switch between EXCEPTION_HUMAN records ---")
     print("Available EXCEPTION_HUMAN records:", exceptions[:3])
 

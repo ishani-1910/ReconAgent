@@ -11,7 +11,10 @@ from typing import List, Dict, Any
 class Tier1SQLEngine:
     def __init__(self, duckdb_client):
         self.client = duckdb_client
-        self.conn = duckdb_client.conn
+
+    @property
+    def conn(self):
+        return self.client.conn
 
     def execute_leg1_commercial_recon(self) -> Dict[str, Any]:
         """

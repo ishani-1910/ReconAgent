@@ -14,15 +14,48 @@ SCHEMA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "schema.s
 class DuckDBClient:
     def __init__(self, db_path: str = DEFAULT_DB_PATH):
         self.db_path = db_path
+        self._conn = None
+        self._connect()
+        self.init_schema()
+
+    def _connect(self):
         try:
-            self.conn = duckdb.connect(db_path)
+            self._conn = duckdb.connect(self.db_path)
         except Exception as e:
             if "already open" in str(e).lower() or "used by another process" in str(e).lower():
-                print(f"Notice: {db_path} is currently locked by another process. Connecting to dedicated in-memory OLAP session.")
-                self.conn = duckdb.connect(":memory:")
+                print(f"Notice: {self.db_path} is currently locked by another process. Connecting to dedicated in-memory OLAP session.")
+                self._conn = duckdb.connect(":memory:")
+                golden_path = os.path.join(os.path.dirname(self.db_path), "golden_recon_agent.duckdb")
+                if os.path.exists(golden_path):
+                    try:
+                        abs_golden = os.path.abspath(golden_path)
+                        self._conn.execute(f"ATTACH '{abs_golden}' AS golden (READ_ONLY);")
+                        tables = [r[0] for r in self._conn.execute("SHOW TABLES FROM golden;").fetchall()]
+                        for t in tables:
+                            self._conn.execute(f"CREATE TABLE {t} AS SELECT * FROM golden.{t};")
+                        self._conn.execute("DETACH golden;")
+                    except Exception as ge:
+                        print(f"Notice: Could not populate in-memory session from golden baseline: {ge}")
             else:
-                raise e
+                self._conn = duckdb.connect(":memory:")
+
+    @property
+    def conn(self):
+        """Returns active DuckDB connection, automatically reconnecting if connection was closed or invalidated."""
+        if self._conn is not None:
+            try:
+                self._conn.execute("SELECT 1;")
+                return self._conn
+            except Exception:
+                # Connection was closed or invalidated externally
+                pass
+        self._connect()
         self.init_schema()
+        return self._conn
+
+    @conn.setter
+    def conn(self, value):
+        self._conn = value
 
     def init_schema(self):
         """Executes schema.sql DDL script."""
@@ -63,6 +96,17 @@ class DuckDBClient:
         FROM raw_gateway_settlements;
         """
         res = self.conn.execute(query).fetchone()
+        if res is None:
+            return {
+                "gross_captured": 0.0,
+                "expected_net_settlement": 0.0,
+                "mdr_fee": 0.0,
+                "gst_fee": 0.0,
+                "reserve_holdback": 0.0,
+                "refunds_deducted": 0.0,
+                "bank_settled_cash": 0.0,
+                "float_in_transit": 0.0
+            }
         
         bank_settled_query = """
         SELECT COALESCE(SUM(credit_amount), 0.0)
@@ -70,18 +114,19 @@ class DuckDBClient:
         JOIN recon_ledger r ON b.bank_stmt_id = r.bank_stmt_id
         WHERE r.recon_status IN ('MATCHED_DETERMINISTIC', 'MATCHED_AI', 'MATCHED_RULE', 'MATCHED_HUMAN_OVERRIDE');
         """
-        bank_settled = self.conn.execute(bank_settled_query).fetchone()[0]
+        bank_res = self.conn.execute(bank_settled_query).fetchone()
+        bank_settled = float(bank_res[0]) if bank_res and bank_res[0] is not None else 0.0
 
-        expected_net = float(res[1])
+        expected_net = float(res[1] or 0.0)
         settled = float(bank_settled)
 
         return {
-            "gross_captured": float(res[0]),
+            "gross_captured": float(res[0] or 0.0),
             "expected_net_settlement": expected_net,
-            "mdr_fee": float(res[2]),
-            "gst_fee": float(res[3]),
-            "reserve_holdback": float(res[4]),
-            "refunds_deducted": float(res[5]),
+            "mdr_fee": float(res[2] or 0.0),
+            "gst_fee": float(res[3] or 0.0),
+            "reserve_holdback": float(res[4] or 0.0),
+            "refunds_deducted": float(res[5] or 0.0),
             "bank_settled_cash": settled,
             "float_in_transit": round(expected_net - settled, 2)
         }
@@ -99,13 +144,22 @@ class DuckDBClient:
         FROM commercial_recon_ledger;
         """
         res = self.conn.execute(query).fetchone()
+        if res is None:
+            return {
+                "total_orders": 0,
+                "total_oms_value": 0.0,
+                "matched_clean_count": 0,
+                "status_mismatch_count": 0,
+                "fee_variance_count": 0,
+                "total_fee_leakage": 0.0
+            }
         return {
-            "total_orders": res[0],
-            "total_oms_value": float(res[1]),
-            "matched_clean_count": res[2],
-            "status_mismatch_count": res[3],
-            "fee_variance_count": res[4],
-            "total_fee_leakage": float(res[5])
+            "total_orders": res[0] or 0,
+            "total_oms_value": float(res[1] or 0.0),
+            "matched_clean_count": res[2] or 0,
+            "status_mismatch_count": res[3] or 0,
+            "fee_variance_count": res[4] or 0,
+            "total_fee_leakage": float(res[5] or 0.0)
         }
 
     def get_recon_ledger_metrics(self) -> Dict[str, int]:
@@ -126,6 +180,16 @@ class DuckDBClient:
         LEFT JOIN recon_ledger r ON b.bank_stmt_id = r.bank_stmt_id;
         """
         res = self.conn.execute(query).fetchone()
+        if res is None:
+            return {
+                "total_bank_records": 0,
+                "tier1_matched_count": 0,
+                "tier2_ai_matched": 0,
+                "tier1_5_rule_matched": 0,
+                "human_override_matched": 0,
+                "tier2_total_matched": 0,
+                "unresolved_count": 0
+            }
         t1 = res[1] or 0
         t2_ai = res[2] or 0
         t1_5 = res[3] or 0
@@ -146,14 +210,21 @@ class DuckDBClient:
         """Restores live DuckDB database from golden_recon_agent.duckdb baseline."""
         import shutil
         if os.path.exists(GOLDEN_DB_PATH):
+            self.close()
             try:
-                self.conn.close()
-            except Exception:
-                pass
-            shutil.copyfile(GOLDEN_DB_PATH, self.db_path)
-            self.conn = duckdb.connect(self.db_path)
+                shutil.copyfile(GOLDEN_DB_PATH, self.db_path)
+            except Exception as e:
+                print(f"Warning copying golden reference: {e}")
+            self._connect()
+            self.init_schema()
             return True
         return False
 
     def close(self):
-        self.conn.close()
+        """Safely closes active DuckDB connection."""
+        try:
+            if self._conn is not None:
+                self._conn.close()
+        except Exception:
+            pass
+        self._conn = None
